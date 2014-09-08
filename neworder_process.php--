@@ -1,0 +1,163 @@
+<?php
+/*
+  $Id$
+
+  osCommerce, Open Source E-Commerce Solutions
+  http://www.oscommerce.com
+
+  Copyright (c) 2012 osCommerce
+
+  Released under the GNU General Public License
+*/
+define('EMAIL_SEPARATOR', '------------------------------------------------------');
+
+  require('includes/application_top.php');
+  require('includes/classes/http_client.php');
+
+// if the customer is not logged on, redirect them to the login page
+  if (!tep_session_is_registered('customer_id')) {
+    $navigation->set_snapshot();
+    tep_redirect(tep_href_link(FILENAME_LOGIN, '', 'NONSSL'));
+  }
+
+$logedin_admin_id=$_SESSION['customer_id'];
+function get_customer_info($id){
+	
+	$customer_info = tep_db_query("select * from customers where customers_id = '" . (int)$id. "'");
+      $customer_info_get= tep_db_fetch_array($customer_info);
+	
+	return $customer_info_get;
+	}
+ function check_order_quote($id){
+	 
+	 $customer_info = tep_db_query("select  `order/quote` from rfq_order where customer_id = '" . (int)$id. "'");
+      $customer_info_get= tep_db_fetch_array($customer_info);
+	
+	return $customer_info_get['order/quote'];
+	 }
+	 $rtype='';
+ if(isset($_POST['Order']) && $_POST['Order']!="") {
+ $rtype= $_POST['Order'];
+ } 
+ else if(isset($_POST['Quote']) && $_POST['Quote']!="") {
+	$rtype= $_POST['Quote']; 
+ }
+ $request_type_new_order = $rtype;
+// echo "<pre>";
+ //print_r($_POST);
+//echo $request_type_new_order; exit;
+// process the selected shipping method
+
+  if ( isset($HTTP_POST_VARS['action']) && ($HTTP_POST_VARS['action'] == 'process') && isset($HTTP_POST_VARS['formid']) && ($HTTP_POST_VARS['formid'] == $sessiontoken) ) {
+    
+    if(get_customer_type($_SESSION['customer_group_id'])=='admin') {
+		 $custid = $HTTP_POST_VARS['customersid'];
+		$customer_address_query = tep_db_query("select c.customers_id, c.customers_firstname, c.customers_lastname, c.customers_telephone, c.customers_email_address, ab.entry_company, ab.entry_street_address, ab.entry_suburb, ab.entry_postcode, ab.entry_city, ab.entry_zone_id, z.zone_name, co.countries_id, co.countries_name, co.countries_iso_code_2, co.countries_iso_code_3, co.address_format_id, ab.entry_state from " . TABLE_CUSTOMERS . " c, " . TABLE_ADDRESS_BOOK . " ab left join " . TABLE_ZONES . " z on (ab.entry_zone_id = z.zone_id) left join " . TABLE_COUNTRIES . " co on (ab.entry_country_id = co.countries_id) where c.customers_id = '" . (int)$customer_id . "' and ab.customers_id = '" . (int)$customer_id . "' and c.customers_default_address_id = ab.address_book_id");
+          $customer_address = tep_db_fetch_array($customer_address_query);
+	
+	} else {
+      $customer_address_query = tep_db_query("select c.customers_id, c.customers_firstname, c.customers_lastname, c.customers_telephone, c.customers_email_address, ab.entry_company, ab.entry_street_address, ab.entry_suburb, ab.entry_postcode, ab.entry_city, ab.entry_zone_id, z.zone_name, co.countries_id, co.countries_name, co.countries_iso_code_2, co.countries_iso_code_3, co.address_format_id, ab.entry_state from " . TABLE_CUSTOMERS . " c, " . TABLE_ADDRESS_BOOK . " ab left join " . TABLE_ZONES . " z on (ab.entry_zone_id = z.zone_id) left join " . TABLE_COUNTRIES . " co on (ab.entry_country_id = co.countries_id) where c.customers_id = '" . (int)$customer_id . "' and ab.customers_id = '" . (int)$customer_id . "' and c.customers_default_address_id = ab.address_book_id");
+          $customer_address = tep_db_fetch_array($customer_address_query);
+		  $custid = $customer_address['customers_id'];
+	}
+     $manufacturers_info = tep_db_fetch_array(tep_db_query("select  manufacturers_name from " . TABLE_MANUFACTURERS . " where manufacturers_id='".$_REQUEST['manufacturers_id']."'"));
+     
+// lets start with the email confirmation
+$prodinfo=array();
+$catinfo=array();
+$products_ordered='';
+
+ $sql = tep_db_query("INSERT INTO `rfq_order` (customer_id, `manufacturer`, `serial`, `model`, `issue_no`, `po_no`, `notes`, `date_added`,`order/quote`) VALUES 
+   ('".$custid."','".$_REQUEST['manufacturers_id']."', '".$_REQUEST['serial_no']."', '".$_REQUEST['model_no']."', '".$_REQUEST['issue_no']."', '".$_REQUEST['customer_po']."', '".$_REQUEST['notes']."', '".date("Y-m-d h:i:s")."','".$request_type_new_order."')") ;
+$last_id= tep_db_insert_id();
+for($i=1;$i<=6;$i++)
+{
+	if($_REQUEST['partnum'.$i]!='')
+	{
+		
+	 $catid = $_REQUEST['parttype'.$i];
+		//echo ; exit;
+	$prodinfo=tep_db_fetch_array(tep_db_query("select  b.products_name from " . TABLE_PRODUCTS . " a,".TABLE_PRODUCTS_DESCRIPTION." b where a.products_id=b.products_id and a.products_model='".$_REQUEST['partnum'.$i]."'"));
+	
+	$catinfo=tep_db_fetch_array(tep_db_query("select a.categories_id, b.categories_name from " . TABLE_CATEGORIES . " a ," .TABLE_CATEGORIES_DESCRIPTION. " b where a.categories_id=b.categories_id and a.parent_id=0 and b.categories_id='".$catid."'"));
+	
+	
+    $products_ordered .= $_REQUEST['cart_quantity'.$i] . ' x ' . stripslashes($prodinfo['products_name']) . ' (' . $_POST['partnum'.$i] . ') = ' .  $_POST['price'.$i] ."\t".$catinfo['categories_name']."\t" .$_POST['descr'.$i] . "\n";
+ tep_db_query("INSERT INTO `rfq_order_detail` (`rfq_id`, `qty`, `part_type`, `description`, `part_number`, `price`) VALUES 
+ ('".$last_id."', '".$_REQUEST['cart_quantity'.$i]."', '".$catinfo['categories_name']."', '".$_POST['desc'.$i]."', '".$_POST['partnum'.$i]."', '".($_POST['price'.$i])."');");
+
+
+}
+}
+  //exit;
+  $email_order = STORE_NAME . "\n" . 
+                 EMAIL_SEPARATOR . "\n\n" .
+		 'Manufacturer Name ' . "\n" .EMAIL_SEPARATOR . "\n" .$manufacturers_info['manufacturers_name']. "\n\n" .
+		 'Serial No: ' . "\n" .EMAIL_SEPARATOR . "\n" .$_REQUEST['serial_no']. "\n\n" .
+		 'Model No:' . "\n" .EMAIL_SEPARATOR . "\n" .$_REQUEST['model_no']. "\n\n" .'Products Ordered'. "\n".EMAIL_SEPARATOR . "\n" . $products_ordered."\n\n".
+		 'Issue No: ' . "\n" .EMAIL_SEPARATOR . "\n" .$_REQUEST['issue_no']. "\n\n" .
+		 'PO No:' . "\n" .EMAIL_SEPARATOR . "\n" .$_REQUEST['customer_po']. "\n\n" .
+		 'Notes' . "\n" .EMAIL_SEPARATOR . "\n" .$_REQUEST['notes']. "\n\n".
+ 		 'View Order:' . "\n" .EMAIL_SEPARATOR . "\n<a href='http://itemnet.ca/cartest/vieworder.php?po=" .$last_id. "'>http://itemnet.ca/cartest/vieworder.php?po=" .$last_id. "</a>\n\n" ;
+ $po="po".$_REQUEST['customer_po'];
+ 
+ // -------------------- mail order to admin ------------------
+ 
+ $email_order2 = STORE_NAME . "\n" . 
+                 EMAIL_SEPARATOR . "\n\n" .
+		 'Manufacturer Name ' . "\n" .EMAIL_SEPARATOR . "\n" .$manufacturers_info['manufacturers_name']. "\n\n" .
+		 'Serial No: ' . "\n" .EMAIL_SEPARATOR . "\n" .$_REQUEST['serial_no']. "\n\n" .
+		 'Model No:' . "\n" .EMAIL_SEPARATOR . "\n" .$_REQUEST['model_no']. "\n\n" .'Products Ordered'. "\n".EMAIL_SEPARATOR . "\n" . $products_ordered."\n\n".
+		 'Issue No: ' . "\n" .EMAIL_SEPARATOR . "\n" .$_REQUEST['issue_no']. "\n\n" .
+		 'PO No:' . "\n" .EMAIL_SEPARATOR . "\n" .$_REQUEST['customer_po']. "\n\n" .
+		 'Notes' . "\n" .EMAIL_SEPARATOR . "\n" .$_REQUEST['notes']. "\n\n".
+ 		 'View Order:' . "\n" .EMAIL_SEPARATOR . "\n<a href='http://itemnet.ca/cartest/admin/rfq_orders.php?page=1&cID=".$last_id."&action=view'>http://itemnet.ca/cartest/admin/rfq_orders.php?page=1&cID=".$last_id."&action=view</a>\n\n" ;
+ $po="po".$_REQUEST['customer_po'];
+ 
+ // --------------   End ---------------------------------
+ if(get_customer_type($_SESSION['customer_group_id'])=='admin') {
+	// echo STORE_OWNER_EMAIL_ADDRESS;
+	$customer_order_query = tep_db_query("select c.customers_id, c.customers_firstname, c.customers_lastname, c.customers_telephone, c.customers_email_address, ab.entry_company, ab.entry_street_address, ab.entry_suburb, ab.entry_postcode, ab.entry_city, ab.entry_zone_id, z.zone_name, co.countries_id, co.countries_name, co.countries_iso_code_2, co.countries_iso_code_3, co.address_format_id, ab.entry_state from " . TABLE_CUSTOMERS . " c, " . TABLE_ADDRESS_BOOK . " ab left join " . TABLE_ZONES . " z on (ab.entry_zone_id = z.zone_id) left join " . TABLE_COUNTRIES . " co on (ab.entry_country_id = co.countries_id) where c.customers_id = '" . (int)$HTTP_POST_VARS['customersid'] . "' and ab.customers_id = '" . (int)$HTTP_POST_VARS['customersid'] . "' and c.customers_default_address_id = ab.address_book_id");
+          $customer_order_row = tep_db_fetch_array($customer_order_query);
+	
+	// exit;
+	// ---- To Admin
+	 tep_mail(STORE_OWNER, STORE_OWNER_EMAIL_ADDRESS , 'REQUEST FOR '.$request_type_new_order.'', $email_order2, $customer_address['customers_firstname'] . ' ' . $customer_address['customers_lastname'], $customer_address['customers_email_address']);
+  //--- To Store Admin 
+    tep_mail($customer_address['customers_firstname'] . ' ' . $customer_address['customers_lastname'], $customer_address['customers_email_address'], 'You Placed Request For '.$request_type_new_order.'', $email_order, STORE_OWNER, STORE_OWNER_EMAIL_ADDRESS);
+   //  To Customer
+   tep_mail($customer_order_row['customers_firstname'] . ' ' . $customer_order_row['customers_lastname'], $customer_order_row['customers_email_address'], 'You  Request For '.$request_type_new_order.'  Placed', $email_order, STORE_OWNER, STORE_OWNER_EMAIL_ADDRESS);
+
+ } else {
+tep_mail(STORE_OWNER, STORE_OWNER_EMAIL_ADDRESS , 'REQUEST FOR '.$request_type_new_order.'', $email_order2, $customer_address['customers_firstname'] . ' ' . $customer_address['customers_lastname'], $customer_address['customers_email_address']);
+  //tep_mail('Abhi', 'ahdsan@gmail.com', 'REQUEST FOR QUOTE', $email_order, $customer_address['customers_firstname'] . ' ' . $customer_address['customers_lastname'], $customer_address['customers_email_address']);
+  tep_mail($customer_address['customers_firstname'] . ' ' . $customer_address['customers_lastname'], $customer_address['customers_email_address'], 'REQUEST FOR '.$request_type_new_order.'', $email_order, STORE_OWNER, STORE_OWNER_EMAIL_ADDRESS);
+ }
+  }
+
+ 
+ 
+
+  require(DIR_WS_LANGUAGES . $language . '/' . FILENAME_CHECKOUT_SHIPPING);
+
+ 
+ // dont show left and right block
+ $dontshowleftright=1;
+  
+  require(DIR_WS_INCLUDES . 'template_top.php');
+ 
+ 
+?>
+
+
+  <div class="contentText">
+ 
+     <h3><?php echo 'Your Request for Quote was sent successfully. <a href="/cartest/neworder.php">Click here to place a new order</a>'; ?></h3>
+     
+     </div>
+ 
+
+<?php
+  require(DIR_WS_INCLUDES . 'template_bottom.php');
+  require(DIR_WS_INCLUDES . 'application_bottom.php');
+?>

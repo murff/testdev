@@ -1,0 +1,448 @@
+v_products_model,v_products_name_1,v_products_description_1,v_products_url_1,v_products_image,v_products_images_image_1,v_products_images_htmlcontent_1,v_products_images_image_2,v_products_images_htmlcontent_2,v_products_images_image_3,v_products_images_htmlcontent_3,v_products_images_image_4,v_products_images_htmlcontent_4,v_products_images_image_5,v_products_images_htmlcontent_5,v_products_images_image_6,v_products_images_htmlcontent_6,v_products_images_image_7,v_products_images_htmlcontent_7,v_products_price,v_products_specials_price,v_products_quantity,v_products_weight,v_date_avail,v_date_added,v_categories_image_1,v_categories_name_1_1,v_categories_image_2,v_categories_name_2_1,v_categories_image_3,v_categories_name_3_1,v_categories_image_4,v_categories_name_4_1,v_categories_image_5,v_categories_name_5_1,v_categories_image_6,v_categories_name_6_1,v_categories_image_7,v_categories_name_7_1,v_manufacturers_name,v_attribute_options_id_1,v_attribute_options_name_1_1,v_attribute_options_id_2,v_attribute_options_name_2_1,v_attribute_options_id_3,v_attribute_options_name_3_1,v_attribute_values_id_3_1,v_attribute_values_name_3_1_1,v_attribute_values_price_3_1,v_attribute_values_id_3_2,v_attribute_values_name_3_2_1,v_attribute_values_price_3_2,v_attribute_values_id_3_3,v_attribute_values_name_3_3_1,v_attribute_values_price_3_3,v_attribute_values_id_3_4,v_attribute_values_name_3_4_1,v_attribute_values_price_3_4,v_attribute_values_id_3_5,v_attribute_values_name_3_5_1,v_attribute_values_price_3_5,v_attribute_options_id_4,v_attribute_options_name_4_1,v_attribute_values_id_4_1,v_attribute_values_name_4_1_1,v_attribute_values_price_4_1,v_attribute_values_id_4_2,v_attribute_values_name_4_2_1,v_attribute_values_price_4_2,v_attribute_values_id_4_3,v_attribute_values_name_4_3_1,v_attribute_values_price_4_3,v_attribute_values_id_4_4,v_attribute_values_name_4_4_1,v_attribute_values_price_4_4,v_attribute_options_id_5,v_attribute_options_name_5_1,v_attribute_values_id_5_1,v_attribute_values_name_5_1_1,v_attribute_values_price_5_1,v_attribute_values_id_5_2,v_attribute_values_name_5_2_1,v_attribute_values_price_5_2,v_tax_class_title,v_status,EOREOR
+23.R4F02.001,Fan,24GB SSD Drive,,,,,,,,,,,,,,,,,25,,100,1,,6/2/2014 10:30,,FAN,,ACER,,ACER FAN,,,,,,,,,ACER,1,Color,2,Size,3,Model,5,Value,,6,Premium,,7,Deluxe,,8,PS/2,,9,USB,,4,Memory,1,4 mb,,2,8 mb,,3,16 mb,,4,32 mb,,5,Version,10,Download: Windows - English,,13,Box: Windows - English,,Taxable Goods,Active,EOREOR
+23.M03N2.001,Fan,Satellite L850 Palmrest,,,,,,,,,,,,,,,,,25,,100,1,,6/2/2014 10:30,,FAN,,ACER,,ACER FAN,,,,,,,,,ACER,1,Color,2,Size,3,Model,5,Value,,6,Premium,,7,Deluxe,,8,PS/2,,9,USB,,4,Memory,1,4 mb,,2,8 mb,,3,16 mb,,4,32 mb,,5,Version,10,Download: Windows - English,,13,Box: Windows - English,,Taxable Goods,Active,EOREOR
+60.M8EN2.005,LCD bezel,,,,,,,,,,,,,,,,,,25,,100,1,,6/2/2014 10:30,,FRONT BEZEL,,ACER,,ACER FRONT BEZEL,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+60.M09N2.007,LCD bezel,,,,,,,,,,,,,,,,,,25,,100,1,,6/2/2014 10:30,,FRONT BEZEL,,ACER,,ACER FRONT BEZEL,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+KN.4GB07.001,RAM,,,,,,,,,,,,,,,,,,25,,100,1,,6/2/2014 10:30,bezel.gif,RAM,,ACER,,ACER RAM,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+60.RR907.004,LCD cover,,,,,,,,,,,,,,,,,,27,,100,1,,6/2/2014 10:30,category_bezel.gif,LCD BACK COVER,,ACER,,ACER LCD BACK COVER,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+60.MEZN2.003,LCD cover,,,,,,,,,,,,,,,,,,27,,100,1,,6/2/2014 10:30,,LCD BACK COVER,,ACER,,ACER LCD BACK COVER,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+60.M09N2.005,LCD cover,,,,,,,,,,,,,,,,,,27,,100,1,,6/2/2014 10:30,,LCD BACK COVER,,ACER,,ACER LCD BACK COVER,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+42.VEDD5.002,SIDE BEZEL,,,,,,,,,,,,,,,,,,30,,100,1,,6/2/2014 10:30,,SWITCH COVER,,ACER,,ACER SWITCH COVER,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+NK.I1713.02N,Keyboard,,,,,,,,,,,,,,,,,,35,,100,1,,6/2/2014 10:30,,KEYBOARD ENGLISH,,ACER,,ACER KEYBOARD US,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+N2ABZY000152,Keyboard,,,,,,,,,,,,,,,,,,35,,100,1,,6/2/2014 10:30,,KEYBOARD ENGLISH,,ACER,,ACER KEYBOARD US,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+KB.I170A.170,KEYBOARD,,,,,,,,,,,,,,,,,,35,,100,1,,6/2/2014 10:30,,KEYBOARD ENGLISH,,ACER,,ACER KEYBOARD US,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+27.RJW02.015,Power Cord,,,,,,,,,,,,,,,,,,39,,100,1,,6/2/2014 10:30,,ADAPTER,,ACER,,ACER ADAPTER,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+AP.09003.021,AC Adapter,,,,,,,,,,,,,,,,,,39,,100,1,,6/2/2014 10:30,,ADAPTER,,ACER,,ACER ADAPTER,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+AP.06501.033,AC Adapter,,,,,,,,,,,,,,,,,,39,,100,1,,6/2/2014 10:30,,ADAPTER,,ACER,,ACER ADAPTER,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+AP.06501.026,AC Adapter,,,,,,,,,,,,,,,,,,39,,100,1,,6/2/2014 10:30,,ADAPTER,,ACER,,ACER ADAPTER,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+55.R4F02.002,USB Board,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,ACER,,ACER OTHER,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+56.M48N1.001,TouchPad Module,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,ACER,,ACER OTHER,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+56.M2DN1.001,Touchpad module,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,ACER,,ACER OTHER,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+60.M2DN1.006,TouchPad Bracket,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,ACER,,ACER OTHER,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+23.M09N2.002,Right speaker,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,ACER,,ACER OTHER,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+55.M09N2.001,Power board,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,ACER,,ACER OTHER,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+23.M09N2.001,Mic set,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,ACER,,ACER OTHER,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+23.M09N2.003,Left Speaker,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,ACER,,ACER OTHER,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+50.RYNN5.002,DC-in jack,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,ACER,,ACER OTHER,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+50.M09N2.002,DC - IN Cable 65W,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,ACER,,ACER OTHER,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+50.M09N2.003,Antenna main,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,ACER,,ACER OTHER,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+50.M09N2.004,Antenna aux,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,ACER,,ACER OTHER,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+60.MEZN2.001,Uppercase,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,PALMREST,,ACER,,ACER PALMREST,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+60.M09N2.001,Uppercase,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,PALMREST,,ACER,,ACER PALMREST,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+60.M03N2.002,Uppercase,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,PALMREST,,ACER,,ACER PALMREST,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+60.R4F02.001,Upper Case,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,PALMREST,,ACER,,ACER PALMREST,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+60.RR907.001,Trackpad / Topcase,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,PALMREST,,ACER,,ACER PALMREST,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+60.PTC01.002,TCA,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,PALMREST,,ACER,,ACER PALMREST,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+60.M03N2.001,Palmrest,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,PALMREST,,ACER,,ACER PALMREST,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+NI.23600.085,Wireless Card,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,WIFI,,ACER,,ACER WIFI,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+33.M09N2.003,LCD bracket,,,,,,,,,,,,,,,,,,50,,100,1,,6/2/2014 10:30,,HINGE PAIR,,ACER,,ACER HINGE PAIR,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+60.R4F02.006,Thernal Module,,,,,,,,,,,,,,,,,,50,,100,1,,6/2/2014 10:30,,THERMAL MODULE,,ACER,,ACER THERMAL MODULE,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+60.M2DN1.003,Thermal module,,,,,,,,,,,,,,,,,,50,,100,1,,6/2/2014 10:30,,THERMAL MODULE,,ACER,,ACER THERMAL MODULE,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+42.WBM01.003,Optical Drive Bezel,,,,,,,,,,,,,,,,,,60,,100,1,,6/2/2014 10:30,,DVD,,ACER,,ACER DVD,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+KU.0088DD.055,Optical Drive,,,,,,,,,,,,,,,,,,60,,100,1,,6/2/2014 10:30,,DVD,,ACER,,ACER DVD,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+BT.00607.123,Battery,,,,,,,,,,,,,,,,,,65,,100,1,,6/2/2014 10:30,,BATTERY,,ACER,,ACER BATTERY,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+BT.00603.124,Battery,,,,,,,,,,,,,,,,,,65,,100,1,,6/2/2014 10:30,,BATTERY,,ACER,,ACER BATTERY,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+BT.00603.111,Battery,,,,,,,,,,,,,,,,,,65,,100,1,,6/2/2014 10:30,,BATTERY,,ACER,,ACER BATTERY,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+BT.00603.076,Battery,,,,,,,,,,,,,,,,,,65,,100,1,,6/2/2014 10:30,,BATTERY,,ACER,,ACER BATTERY,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+BT.00603.042,Battery,,,,,,,,,,,,,,,,,,65,,100,1,,6/2/2014 10:30,,BATTERY,,ACER,,ACER BATTERY,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+60.M03N2.005,Uniload door,,,,,,,,,,,,,,,,,,70,,100,1,,6/2/2014 10:30,,OTHER,,ACER,,ACER OTHER,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+KH.500001.030,SLIM HDD,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ACER,,ACER HDD,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+KH.50001.030,SLIM HARD DISK ACER,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ACER,,ACER HDD,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+KH.75008.011,Hard drive,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ACER,,ACER HDD,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+KH.64008.004,Hard Drive,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ACER,,ACER HDD,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+KH.50001.011,Hard Drive,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ACER,,ACER HDD,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+FD.NJRA0.0D1,System discs,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,OTHER,,ACER,,ACER OTHER,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+FD.NJRA0.0D5,Recovery discs,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,OTHER,,ACER,,ACER OTHER,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+FP.XENXP.120,Language discs,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,OTHER,,ACER,,ACER OTHER,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+KB.I170A.412,Keyboard,,,,,,,,,,,,,,,,,,85,,100,1,,6/2/2014 10:30,,KEYBOARD BILINGUAL,,ACER,,ACER KEYBOARD BIL,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+60.M4YN1.029,Keyboard,,,,,,,,,,,,,,,,,,85,,100,1,,6/2/2014 10:30,,KEYBOARD BILINGUAL,,ACER,,ACER KEYBOARD BIL,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+KB.I170A.174,Key Board,,,,,,,,,,,,,,,,,,85,,100,1,,6/2/2014 10:30,,KEYBOARD BILINGUAL,,ACER,,ACER KEYBOARD BIL,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+60.MEPN2.001,Lowercase,,,,,,,,,,,,,,,,,,125,,100,1,,6/2/2014 10:30,,BASE,,ACER,,ACER BASE,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+60.M09N2.002,Lower case,,,,,,,,,,,,,,,,,,125,,100,1,,6/2/2014 10:30,,BASE,,ACER,,ACER BASE,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+60.r4f02.002,base cover,,,,,,,,,,,,,,,,,,125,,100,1,,6/2/2014 10:30,,BASE,,ACER,,ACER BASE,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+60.M03N2.003,Base assembly,,,,,,,,,,,,,,,,,,125,,100,1,,6/2/2014 10:30,,BASE,,ACER,,ACER BASE,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+LK.15608.018,LED Display,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,ACER,,ACER LCD PANEL ONLY,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+LK.13305.004,LED / LCD,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,ACER,,ACER LCD PANEL ONLY,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+LK.15605.019,LCD panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,ACER,,ACER LCD PANEL ONLY,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+KL.15608.003,LCD panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,ACER,,ACER LCD PANEL ONLY,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+KL.15605.015,LCD panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,ACER,,ACER LCD PANEL ONLY,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+KL.15605.013,LCD panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,ACER,,ACER LCD PANEL ONLY,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+kl.15605.001,lcd panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,ACER,,ACER LCD PANEL ONLY,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+6M.M09N2.002,LCD Panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,ACER,,ACER LCD PANEL ONLY,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+60.PW501.005,LCD Panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,ACER,,ACER LCD PANEL ONLY,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+LK.14005.010,"LCD 14""",,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,ACER,,ACER LCD PANEL ONLY,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+LK.1560D.010,LCD / LED,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,ACER,,ACER LCD PANEL ONLY,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+LK.10105.002,LCD / LED,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,ACER,,ACER LCD PANEL ONLY,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+6M.M0MN5.001,LCD - LED Module,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,ACER,,ACER LCD PANEL ONLY,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+LK.15605.027,LCD,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,ACER,,ACER LCD PANEL ONLY,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+MB.R9702.003,Motherboard,,,,,,,,,,,,,,,,,,250,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,ACER,,ACER MOTHERBOARD,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+NB.Y1111.001,Motherboard,,,,,,,,,,,,,,,,,,250,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,ACER,,ACER MOTHERBOARD,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+NB.RYR11.001,Motherboard,,,,,,,,,,,,,,,,,,250,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,ACER,,ACER MOTHERBOARD,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+NB.M1711.001,Motherboard,,,,,,,,,,,,,,,,,,250,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,ACER,,ACER MOTHERBOARD,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+NB.C1F11.001,Motherboard,,,,,,,,,,,,,,,,,,250,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,ACER,,ACER MOTHERBOARD,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+NB.C0A11.001,Motherboard,,,,,,,,,,,,,,,,,,250,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,ACER,,ACER MOTHERBOARD,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+MB.SG50P.007,Motherboard,,,,,,,,,,,,,,,,,,250,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,ACER,,ACER MOTHERBOARD,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+MB.SAM09.001,Motherboard,,,,,,,,,,,,,,,,,,250,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,ACER,,ACER MOTHERBOARD,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+MB.RR706.001,Motherboard,,,,,,,,,,,,,,,,,,250,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,ACER,,ACER MOTHERBOARD,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+MB.R4602.001,Motherboard,,,,,,,,,,,,,,,,,,250,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,ACER,,ACER MOTHERBOARD,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+MB.GAU07.001,Motherboard,,,,,,,,,,,,,,,,,,250,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,ACER,,ACER MOTHERBOARD,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+MB.PJJ06.001,Motherboard,,,,,,,,,,,,,,,,,,250,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,ACER,,ACER MOTHERBOARD,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+PY.3000B.016,Power supply,,,,,,,,,,,,,,,,,,30,,100,1,,6/2/2014 10:30,,DESKTOP POWER SUPPLY,,ACER,,ACER DESKTOP POWER SUPPLY,,,,,,,,,ACER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+922-7144,Thermal Grease,,,,,,,,,,,,,,,,,,10,,100,1,,6/2/2014 10:30,,GREASE,,APPLE,,APPLE GREACE,,,,,,,,,APPLE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+922-8702,Right fan,,,,,,,,,,,,,,,,,,25,,100,1,,6/2/2014 10:30,,FAN,,APPLE,,APPLE FAN,,,,,,,,,APPLE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+661-6403,Ac-Adapter,,,,,,,,,,,,,,,,,,39,,100,1,,6/2/2014 10:30,,ADAPTER,,APPLE,,APPLE ADAPTER,,,,,,,,,APPLE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+661-5730,Ac-Adapter,,,,,,,,,,,,,,,,,,39,,100,1,,6/2/2014 10:30,,ADAPTER,,APPLE,,APPLE ADAPTER,,,,,,,,,APPLE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+661-5597,Ac-Adapter,,,,,,,,,,,,,,,,,,39,,100,1,,6/2/2014 10:30,,ADAPTER,,APPLE,,APPLE ADAPTER,,,,,,,,,APPLE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+661-6088,Hard drive 500 GB,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,APPLE,,APPLE HDD,,,,,,,,,APPLE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+661-6109,500GB Hard drive,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,APPLE,,APPLE HDD,,,,,,,,,APPLE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+661-6532,TCA with keyboard,,,,,,,,,,,,,,,,,,350,,100,1,,6/2/2014 10:30,,OTHER,,APPLE,,APPLE OTHER,,,,,,,,,APPLE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+661-5854,TCA with keybd,,,,,,,,,,,,,,,,,,350,,100,1,,6/2/2014 10:30,,OTHER,,APPLE,,APPLE OTHER,,,,,,,,,APPLE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+GRYGREASE2,GRAY SILICONE GREASE,,,,,,,,,,,,,,,,,,10,,100,1,,6/2/2014 10:30,,GREASE,,ASSORTED,,ASSORTED GREASE,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+LHD-320/5400/s/7mm,Slim Hard Drive 7mm,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASSORTED,,ASSORTED HDD,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+hd/500/7200/s,hdd,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASSORTED,,ASSORTED HDD,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+LHD/640/5400/s,Hard Drive 640GB,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASSORTED,,ASSORTED HDD,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+HD/500/5400/S,Hard Drive 500GB,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASSORTED,,ASSORTED HDD,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+LHD/1000/5400/S,Hard Drive 1TB,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASSORTED,,ASSORTED HDD,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+LHD/160/5400/s,Hard Drive 160GB,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASSORTED,,ASSORTED HDD,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+LHD-750/5400/S/new,hard drive,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASSORTED,,ASSORTED HDD,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+LHD/750/7200/S,Hard Drive,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASSORTED,,ASSORTED HDD,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+lhd/750/5400/s,hard drive,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASSORTED,,ASSORTED HDD,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+lhd/650/5400/s,hard drive,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASSORTED,,ASSORTED HDD,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+LHD/640/7200/S,Hard Drive,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASSORTED,,ASSORTED HDD,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+LHD/640/5400S,Hard Drive,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASSORTED,,ASSORTED HDD,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+LHD/640/5400,Hard Drive,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASSORTED,,ASSORTED HDD,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+LHD/500/7200/S,Hard Drive,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASSORTED,,ASSORTED HDD,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+LHD/500/5400/S,Hard Drive,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASSORTED,,ASSORTED HDD,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+LHD/320/7200/S,Hard Drive,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASSORTED,,ASSORTED HDD,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+lhd/1tb/7200/s,hard drive,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASSORTED,,ASSORTED HDD,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+LHD/1TB/5400/S,Hard Drive,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASSORTED,,ASSORTED HDD,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+LHD/1TB/5400/s,Hard Drive,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASSORTED,,ASSORTED HDD,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+hdd/1tb /5400/s,hard drive,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASSORTED,,ASSORTED HDD,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+HD/2TB/7200/S,hard drive,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASSORTED,,ASSORTED HDD,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+HD/2T/7200/S,Hard drive,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASSORTED,,ASSORTED HDD,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+HD/2000/7200/S,Hard Drive,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASSORTED,,ASSORTED HDD,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+HD/1TB/7200/S,Hard drive,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASSORTED,,ASSORTED HDD,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+HD/1T/7200/S,Hard drive,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASSORTED,,ASSORTED HDD,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+HD/1500/7200/S,Hard Drive,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASSORTED,,ASSORTED HDD,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+HD/1000/7200/S,Hard Drive,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASSORTED,,ASSORTED HDD,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+lhd-500/5400/s,Hard Disk,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASSORTED,,ASSORTED HDD,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+LHD/320/5400/S,Hard DIsk,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASSORTED,,ASSORTED HDD,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+7mm 500GB HDD,7mm 500GB HDD,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASSORTED,,ASSORTED HDD,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+LP156WH4,LED panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,ASSORTED,,MIXED LCD PANEL ONLY,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+LTNA70BT08-G01,LCD Panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,ASSORTED,,MIXED LCD PANEL ONLY,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+LTN160AT01-001,LCD Panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,ASSORTED,,MIXED LCD PANEL ONLY,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+LTN160AT01,LCD Panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,ASSORTED,,MIXED LCD PANEL ONLY,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+LTN156AT20-H01,LCD panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,ASSORTED,,MIXED LCD PANEL ONLY,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+LTN156AT15V0. 3_HF,lcd panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,ASSORTED,,MIXED LCD PANEL ONLY,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+LTN156AT05-H07,lcd panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,ASSORTED,,MIXED LCD PANEL ONLY,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+LP156WH4(T1)(N1),LCD panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,ASSORTED,,MIXED LCD PANEL ONLY,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+LP154WX7,LCD panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,ASSORTED,,MIXED LCD PANEL ONLY,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+BX133XW01 v.2,LCD Panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,ASSORTED,,MIXED LCD PANEL ONLY,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+B156XW04 V.5,LCD panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,ASSORTED,,MIXED LCD PANEL ONLY,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+B156XW02,LCD Panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,ASSORTED,,MIXED LCD PANEL ONLY,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+B145XW04 V.5,LCD Panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,ASSORTED,,MIXED LCD PANEL ONLY,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+LTN170X2-L02,lcd,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,ASSORTED,,MIXED LCD PANEL ONLY,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+LP173WD1,"17.3"" LED Pannel",,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,ASSORTED,,MIXED LCD PANEL ONLY,,,,,,,,,ASSORTED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+13GNUH1AP012-1,LCD Bezel,,,,,,,,,,,,,,,,,,25,,100,1,,6/2/2014 10:30,,FRONT BEZEL,,ASUS,,ASUS FRONT BEZEL,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+13GNUH1AM022-1,LCD back cover,,,,,,,,,,,,,,,,,,27,,100,1,,6/2/2014 10:30,,LCD BACK COVER,,ASUS,,ASUS LCD BACK COVER,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+13GNBH2AP043-1,LCD Back cover,,,,,,,,,,,,,,,,,,27,,100,1,,6/2/2014 10:30,,LCD BACK COVER,,ASUS,,ASUS LCD BACK COVER,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+04GN5I1KUS00-7,Keyboard,,,,,,,,,,,,,,,,,,35,,100,1,,6/2/2014 10:30,,KEYBOARD ENGLISH,,ASUS,,ASUS KEYBOARD US,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+04GN58BKUS00-7,Keyboard,,,,,,,,,,,,,,,,,,35,,100,1,,6/2/2014 10:30,,KEYBOARD ENGLISH,,ASUS,,ASUS KEYBOARD US,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+04G2660047L2,adap,,,,,,,,,,,,,,,,,,39,,100,1,,6/2/2014 10:30,,ADAPTER,,ASUS,,ASUS ADAPTER,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+0A001-00230000,AC adapter,,,,,,,,,,,,,,,,,,39,,100,1,,6/2/2014 10:30,,ADAPTER,,ASUS,,ASUS ADAPTER,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+0A001-00080200,AC adapter,,,,,,,,,,,,,,,,,,39,,100,1,,6/2/2014 10:30,,ADAPTER,,ASUS,,ASUS ADAPTER,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+0A001-00050100,Ac adapter,,,,,,,,,,,,,,,,,,39,,100,1,,6/2/2014 10:30,,ADAPTER,,ASUS,,ASUS ADAPTER,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+0A001-00041500,Ac Adapter,,,,,,,,,,,,,,,,,,39,,100,1,,6/2/2014 10:30,,ADAPTER,,ASUS,,ASUS ADAPTER,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+14010-00097600,TP - FPC -,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,ASUS,,ASUS OTHER,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+04060-00160000,Touchpad,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,ASUS,,ASUS OTHER,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+04060-00120300,Touchpad,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,ASUS,,ASUS OTHER,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+13GN3X1AP031-1,Hard drive/ram door,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,ASUS,,ASUS OTHER,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+04G070001000DP,Front USB Module,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,ASUS,,ASUS OTHER,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+04011-001301DP,Front I/O module,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,ASUS,,ASUS OTHER,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+04011-00020100,Front I/O Module,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,ASUS,,ASUS OTHER,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+14004-00750000,DC in jack,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,ASUS,,ASUS OTHER,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+14G140359100,dc,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,ASUS,,ASUS OTHER,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+13GNBH4AP010-1,Top Cover Assy,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,PALMREST,,ASUS,,ASUS PALMREST,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+13GN57BAP010-1,Top Cover Assy,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,PALMREST,,ASUS,,ASUS PALMREST,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+13GNAN4AP050-1,Top cover,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,PALMREST,,ASUS,,ASUS PALMREST,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+13GN3X5AP011-1,Top Cover,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,PALMREST,,ASUS,,ASUS PALMREST,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+13GN571AP010-1,top,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,PALMREST,,ASUS,,ASUS PALMREST,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+0C001-001000DP,Wifi card,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,WIFI,,ASUS,,ASUS WIFI,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+13GNAN1AM010-1,Thermal Module,,,,,,,,,,,,,,,,,,50,,100,1,,6/2/2014 10:30,,THERMAL MODULE,,ASUS,,ASUS THERMAL MODULE,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+13GN8O1AM010-1,Thermal Module,,,,,,,,,,,,,,,,,,50,,100,1,,6/2/2014 10:30,,THERMAL MODULE,,ASUS,,ASUS THERMAL MODULE,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+08GA1000071L,Thermal FPC,,,,,,,,,,,,,,,,,,50,,100,1,,6/2/2014 10:30,,THERMAL MODULE,,ASUS,,ASUS THERMAL MODULE,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+13GN0U10P070-1,Thermal Fan,,,,,,,,,,,,,,,,,,50,,100,1,,6/2/2014 10:30,,THERMAL MODULE,,ASUS,,ASUS THERMAL MODULE,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+17600-000301DP,Optical Drive,,,,,,,,,,,,,,,,,,60,,100,1,,6/2/2014 10:30,,DVD,,ASUS,,ASUS DVD,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+13GN2V1AP081-1,ODD Bezel,,,,,,,,,,,,,,,,,,60,,100,1,,6/2/2014 10:30,,DVD,,ASUS,,ASUS DVD,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+0B200-00010000,Battery,,,,,,,,,,,,,,,,,,65,,100,1,,6/2/2014 10:30,,BATTERY,,ASUS,,ASUS BATTERY,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+0B110-00070000,Battery,,,,,,,,,,,,,,,,,,65,,100,1,,6/2/2014 10:30,,BATTERY,,ASUS,,ASUS BATTERY,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+0B110-00050600,Battery,,,,,,,,,,,,,,,,,,65,,100,1,,6/2/2014 10:30,,BATTERY,,ASUS,,ASUS BATTERY,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+07G016HK1875,Battery,,,,,,,,,,,,,,,,,,65,,100,1,,6/2/2014 10:30,,BATTERY,,ASUS,,ASUS BATTERY,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+07G016DH1875,Battery,,,,,,,,,,,,,,,,,,65,,100,1,,6/2/2014 10:30,,BATTERY,,ASUS,,ASUS BATTERY,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+13PD0041AM0111,CHASSIS ASSY,,,,,,,,,,,,,,,,,,75,,100,1,,6/2/2014 10:30,,DESKTOP OTHER,,ASUS,,ASUS DESKTOP OTHER,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+04G540005900DP,Card Reader Module,,,,,,,,,,,,,,,,,,75,,100,1,,6/2/2014 10:30,,DESKTOP OTHER,,ASUS,,ASUS DESKTOP OTHER,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+19201-41540300,Hard drive 750GB,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASUS,,ASUS HDD,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+19201-41240000,Hard Drive,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASUS,,ASUS HDD,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+19201-41010100,Hard Drive,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASUS,,ASUS HDD,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+19200-41230000,Hard Drive,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASUS,,ASUS HDD,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+19200-41220200,Hard Drive,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASUS,,ASUS HDD,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+19200-41210000,Hard Drive,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASUS,,ASUS HDD,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+19200-41030000,Hard Drive,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASUS,,ASUS HDD,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+17G013A48900,Hard Drive,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,ASUS,,ASUS HDD,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+70-N5I1K1S00,keyboard,,,,,,,,,,,,,,,,,,85,,100,1,,6/2/2014 10:30,,KEYBOARD BILINGUAL,,ASUS,,ASUS KEYBOARD BIL,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+0KNB0-6231CB00,keyboard,,,,,,,,,,,,,,,,,,85,,100,1,,6/2/2014 10:30,,KEYBOARD BILINGUAL,,ASUS,,ASUS KEYBOARD BIL,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+0KNB0-6105CB00,Keyboard,,,,,,,,,,,,,,,,,,85,,100,1,,6/2/2014 10:30,,KEYBOARD BILINGUAL,,ASUS,,ASUS KEYBOARD BIL,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+04GN0K1KCB00-2,Keyboard,,,,,,,,,,,,,,,,,,85,,100,1,,6/2/2014 10:30,,KEYBOARD BILINGUAL,,ASUS,,ASUS KEYBOARD BIL,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+13GN3X5AP023-1,Base assembley,,,,,,,,,,,,,,,,,,125,,100,1,,6/2/2014 10:30,,BASE,,ASUS,,ASUS BASE,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+13GNBH2AP031-1,Base,,,,,,,,,,,,,,,,,,125,,100,1,,6/2/2014 10:30,,BASE,,ASUS,,ASUS BASE,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+13GNAN4AP060-1,Base,,,,,,,,,,,,,,,,,,125,,100,1,,6/2/2014 10:30,,BASE,,ASUS,,ASUS BASE,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+13GN7110P020-1,Base,,,,,,,,,,,,,,,,,,125,,100,1,,6/2/2014 10:30,,BASE,,ASUS,,ASUS BASE,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+13GN5710P040-1,base,,,,,,,,,,,,,,,,,,125,,100,1,,6/2/2014 10:30,,BASE,,ASUS,,ASUS BASE,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+90R-OA3P2K1000Q,Topcover/keyboard,,,,,,,,,,,,,,,,,,130,,100,1,,6/2/2014 10:30,,OTHER,,ASUS,,ASUS OTHER,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+18G241560041Q,LCD Panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,ASUS,,ASUS LCD PANEL ONLY,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+18010-15620100,LCD Panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,ASUS,,ASUS LCD PANEL ONLY,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+03B03-00080500,SSD,,,,,,,,,,,,,,,,,,150,,100,1,,6/2/2014 10:30,,SSD,,ASUS,,ASUS SSD,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+90R-NUHMB1100Y,Motherboard,,,,,,,,,,,,,,,,,,250,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,ASUS,,ASUS MOTHERBOARD,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+60-N3CMB1900-A01,Motherboard,,,,,,,,,,,,,,,,,,250,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,ASUS,,ASUS MOTHERBOARD,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+60-n3cmb1701-a04,Motherboard,,,,,,,,,,,,,,,,,,250,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,ASUS,,ASUS MOTHERBOARD,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+90R-N3IMB1000Y,Mainboard,,,,,,,,,,,,,,,,,,250,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,ASUS,,ASUS MOTHERBOARD,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+60NB03R0-MB1240,Mainboard,,,,,,,,,,,,,,,,,,250,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,ASUS,,ASUS MOTHERBOARD,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+60NB00I0-MBC080,Mainboard,,,,,,,,,,,,,,,,,,250,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,ASUS,,ASUS MOTHERBOARD,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+60NB00I0-LD1050,Mainboard,,,,,,,,,,,,,,,,,,250,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,ASUS,,ASUS MOTHERBOARD,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+60-N93MB2A00-A18,Mainboard,,,,,,,,,,,,,,,,,,250,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,ASUS,,ASUS MOTHERBOARD,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+60-N8OMB1402-B01,Mainboard,,,,,,,,,,,,,,,,,,250,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,ASUS,,ASUS MOTHERBOARD,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+60-N89MB1301-A02,Mainboard,,,,,,,,,,,,,,,,,,250,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,ASUS,,ASUS MOTHERBOARD,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+60-N71MB2200-A03,Mainboard,,,,,,,,,,,,,,,,,,250,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,ASUS,,ASUS MOTHERBOARD,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+60-N3XMB1000-D11,Mainboard,,,,,,,,,,,,,,,,,,250,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,ASUS,,ASUS MOTHERBOARD,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+61-MIBF32-01,Mainbaord,,,,,,,,,,,,,,,,,,250,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,ASUS,,ASUS MOTHERBOARD,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+60-NEOMB1000-B01,Mainbaord,,,,,,,,,,,,,,,,,,250,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,ASUS,,ASUS MOTHERBOARD,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+60-N8OMB1900-B01,Mainbaord,,,,,,,,,,,,,,,,,,250,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,ASUS,,ASUS MOTHERBOARD,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+90NB00Z0-R22000,LCD module,,,,,,,,,,,,,,,,,,350,,100,1,,6/2/2014 10:30,,LCD COMPLETE ASSY,,ASUS,,ASUS LCD FULL ASSY,,,,,,,,,ASUS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+732068-001,fan,,,,,,,,,,,,,,,,,,25,,100,1,,6/2/2014 10:30,,FAN,,HP,,HP FAN,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+680551-001,fan,,,,,,,,,,,,,,,,,,25,,100,1,,6/2/2014 10:30,,FAN,,HP,,HP FAN,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+606609-001,fan,,,,,,,,,,,,,,,,,,25,,100,1,,6/2/2014 10:30,,FAN,,HP,,HP FAN,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+531813-001,Thermal module,,,,,,,,,,,,,,,,,,25,,100,1,,6/2/2014 10:30,,FAN,,HP,,HP FAN,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+686591-001,LCD Bezel,,,,,,,,,,,,,,,,,,25,,100,1,,6/2/2014 10:30,,FRONT BEZEL,,HP,,HP FRONT BEZEL,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+665592-001,LCD Bezel,,,,,,,,,,,,,,,,,,25,,100,1,,6/2/2014 10:30,,FRONT BEZEL,,HP,,HP FRONT BEZEL,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+725617-001,BEZEL,,,,,,,,,,,,,,,,,,25,,100,1,,6/2/2014 10:30,,FRONT BEZEL,,HP,,HP FRONT BEZEL,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+681971-001,bezel,,,,,,,,,,,,,,,,,,25,,100,1,,6/2/2014 10:30,,FRONT BEZEL,,HP,,HP FRONT BEZEL,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+605340-001,bezel,,,,,,,,,,,,,,,,,,25,,100,1,,6/2/2014 10:30,,FRONT BEZEL,,HP,,HP FRONT BEZEL,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+641369-001,RAM,,,,,,,,,,,,,,,,,,25,,100,1,,6/2/2014 10:30,,RAM,,HP,,HP RAM,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+692382-001,LCD Back cover,,,,,,,,,,,,,,,,,,27,,100,1,,6/2/2014 10:30,,LCD BACK COVER,,HP,,HP LCD BACK COVER,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+665976-001,LCD Back cover,,,,,,,,,,,,,,,,,,27,,100,1,,6/2/2014 10:30,,LCD BACK COVER,,HP,,HP LCD BACK COVER,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+681808-001,LCD cable,,,,,,,,,,,,,,,,,,27,,100,1,,6/2/2014 10:30,,LCD WIRE SET,,HP,,HP LCD WIRE SET,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+432962-001,LCD Cable,,,,,,,,,,,,,,,,,,27,,100,1,,6/2/2014 10:30,,LCD WIRE SET,,HP,,HP LCD WIRE SET,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+719853-001,keyboard,,,,,,,,,,,,,,,,,,35,,100,1,,6/2/2014 10:30,,KEYBOARD ENGLISH,,HP,,HP KEYBOARD US,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+600715-001,keybaord,,,,,,,,,,,,,,,,,,35,,100,1,,6/2/2014 10:30,,KEYBOARD ENGLISH,,HP,,HP KEYBOARD US,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+693709-001,power supply,,,,,,,,,,,,,,,,,,39,,100,1,,6/2/2014 10:30,,ADAPTER,,HP,,HP ADAPTER,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+463955-001,Adapter,,,,,,,,,,,,,,,,,,39,,100,1,,6/2/2014 10:30,,ADAPTER,,HP,,HP ADAPTER,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+710413-001,ac-adapter,,,,,,,,,,,,,,,,,,39,,100,1,,6/2/2014 10:30,,ADAPTER,,HP,,HP ADAPTER,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+490371-001,AC Adapter,,,,,,,,,,,,,,,,,,39,,100,1,,6/2/2014 10:30,,ADAPTER,,HP,,HP ADAPTER,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+608380-001,Power Button w/cable,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,HP,,HP OTHER,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+719843-001,power button panel,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,HP,,HP OTHER,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+681974-001,DC-IN JACK,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,HP,,HP OTHER,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+686589-001,antennas WLAN,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,HP,,HP OTHER,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+608377-001,Top Cover Assy,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,PALMREST,,HP,,HP PALMREST,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+733435-001,top cover,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,PALMREST,,HP,,HP PALMREST,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+708009-001,top cover,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,PALMREST,,HP,,HP PALMREST,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+679919-001,top cover,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,PALMREST,,HP,,HP PALMREST,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+665998-001,top cover,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,PALMREST,,HP,,HP PALMREST,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+605346-001,top cover,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,PALMREST,,HP,,HP PALMREST,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+631956-001,wifi card,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,WIFI,,HP,,HP WIFI,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+666391-001,thermal module,,,,,,,,,,,,,,,,,,50,,100,1,,6/2/2014 10:30,,THERMAL MODULE,,HP,,HP THERMAL MODULE,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+665278-001,THERMAL MODULE,,,,,,,,,,,,,,,,,,50,,100,1,,6/2/2014 10:30,,THERMAL MODULE,,HP,,HP THERMAL MODULE,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+646181-001,THERMAL MODULE,,,,,,,,,,,,,,,,,,50,,100,1,,6/2/2014 10:30,,THERMAL MODULE,,HP,,HP THERMAL MODULE,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+606575-001,THERMAL MODULE,,,,,,,,,,,,,,,,,,50,,100,1,,6/2/2014 10:30,,THERMAL MODULE,,HP,,HP THERMAL MODULE,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+750382-001,ODD Bezel,,,,,,,,,,,,,,,,,,60,,100,1,,6/2/2014 10:30,,DVD,,HP,,HP DVD,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+728460-001,Battery,,,,,,,,,,,,,,,,,,65,,100,1,,6/2/2014 10:30,,BATTERY,,HP,,HP BATTERY,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+682091-001,battery,,,,,,,,,,,,,,,,,,65,,100,1,,6/2/2014 10:30,,BATTERY,,HP,,HP BATTERY,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+672412-001,battery,,,,,,,,,,,,,,,,,,65,,100,1,,6/2/2014 10:30,,BATTERY,,HP,,HP BATTERY,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+636631-001,battery,,,,,,,,,,,,,,,,,,65,,100,1,,6/2/2014 10:30,,BATTERY,,HP,,HP BATTERY,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+633805-001,battery,,,,,,,,,,,,,,,,,,65,,100,1,,6/2/2014 10:30,,BATTERY,,HP,,HP BATTERY,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+593576-001,Battery,,,,,,,,,,,,,,,,,,65,,100,1,,6/2/2014 10:30,,BATTERY,,HP,,HP BATTERY,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+593554-001,battery,,,,,,,,,,,,,,,,,,65,,100,1,,6/2/2014 10:30,,BATTERY,,HP,,HP BATTERY,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+593553-001,battery,,,,,,,,,,,,,,,,,,65,,100,1,,6/2/2014 10:30,,BATTERY,,HP,,HP BATTERY,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+593548-001,battery,,,,,,,,,,,,,,,,,,65,,100,1,,6/2/2014 10:30,,BATTERY,,HP,,HP BATTERY,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+634250-001,Hard Drive,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,HP,,HP HDD,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+303487-M88,hard drive,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,HP,,HP HDD,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+716164-DB1,keyboard,,,,,,,,,,,,,,,,,,85,,100,1,,6/2/2014 10:30,,KEYBOARD BILINGUAL,,HP,,HP KEYBOARD BIL,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+701684-DB1,keyboard,,,,,,,,,,,,,,,,,,85,,100,1,,6/2/2014 10:30,,KEYBOARD BILINGUAL,,HP,,HP KEYBOARD BIL,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+699497-DB1,KEYBOARD,,,,,,,,,,,,,,,,,,85,,100,1,,6/2/2014 10:30,,KEYBOARD BILINGUAL,,HP,,HP KEYBOARD BIL,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+698952-DB1,keyboard,,,,,,,,,,,,,,,,,,85,,100,1,,6/2/2014 10:30,,KEYBOARD BILINGUAL,,HP,,HP KEYBOARD BIL,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+698781-DB1,Keyboard,,,,,,,,,,,,,,,,,,85,,100,1,,6/2/2014 10:30,,KEYBOARD BILINGUAL,,HP,,HP KEYBOARD BIL,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+698694-DB1,KEYBOARD,,,,,,,,,,,,,,,,,,85,,100,1,,6/2/2014 10:30,,KEYBOARD BILINGUAL,,HP,,HP KEYBOARD BIL,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+681800-DB1,KEYBOARD,,,,,,,,,,,,,,,,,,85,,100,1,,6/2/2014 10:30,,KEYBOARD BILINGUAL,,HP,,HP KEYBOARD BIL,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+665326-121,Keyboard,,,,,,,,,,,,,,,,,,85,,100,1,,6/2/2014 10:30,,KEYBOARD BILINGUAL,,HP,,HP KEYBOARD BIL,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+646300-121,keyboard,,,,,,,,,,,,,,,,,,85,,100,1,,6/2/2014 10:30,,KEYBOARD BILINGUAL,,HP,,HP KEYBOARD BIL,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+605344-121,keyboard,,,,,,,,,,,,,,,,,,85,,100,1,,6/2/2014 10:30,,KEYBOARD BILINGUAL,,HP,,HP KEYBOARD BIL,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+600175-121,keyboard,,,,,,,,,,,,,,,,,,85,,100,1,,6/2/2014 10:30,,KEYBOARD BILINGUAL,,HP,,HP KEYBOARD BIL,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+597635-121,keyboard,,,,,,,,,,,,,,,,,,85,,100,1,,6/2/2014 10:30,,KEYBOARD BILINGUAL,,HP,,HP KEYBOARD BIL,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+595199-121,keyboard,,,,,,,,,,,,,,,,,,85,,100,1,,6/2/2014 10:30,,KEYBOARD BILINGUAL,,HP,,HP KEYBOARD BIL,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+518966-121,keyboard,,,,,,,,,,,,,,,,,,85,,100,1,,6/2/2014 10:30,,KEYBOARD BILINGUAL,,HP,,HP KEYBOARD BIL,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+695628-ZH1,Graphic card,,,,,,,,,,,,,,,,,,120,,100,1,,6/2/2014 10:30,,DESKTOP VIDEO CARD,,HP,,HP DSK VIDEO CARD,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+648533-001,Video Card,,,,,,,,,,,,,,,,,,120,,100,1,,6/2/2014 10:30,,DESKTOP VIDEO CARD,,HP,,HP DSK VIDEO CARD,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+742580-001,base enclosure,,,,,,,,,,,,,,,,,,125,,100,1,,6/2/2014 10:30,,BASE,,HP,,HP BASE,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+719866-001,base enclosure,,,,,,,,,,,,,,,,,,125,,100,1,,6/2/2014 10:30,,BASE,,HP,,HP BASE,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+708302-001,base enclosure,,,,,,,,,,,,,,,,,,125,,100,1,,6/2/2014 10:30,,BASE,,HP,,HP BASE,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+707999-001,base enclosure,,,,,,,,,,,,,,,,,,125,,100,1,,6/2/2014 10:30,,BASE,,HP,,HP BASE,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+639569-001,base enclosure,,,,,,,,,,,,,,,,,,125,,100,1,,6/2/2014 10:30,,BASE,,HP,,HP BASE,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+615591-001,base enclosure,,,,,,,,,,,,,,,,,,125,,100,1,,6/2/2014 10:30,,BASE,,HP,,HP BASE,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+605345-001,base enclosure,,,,,,,,,,,,,,,,,,125,,100,1,,6/2/2014 10:30,,BASE,,HP,,HP BASE,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+599089-001,base enclosure,,,,,,,,,,,,,,,,,,125,,100,1,,6/2/2014 10:30,,BASE,,HP,,HP BASE,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+535864-001,base enclosure,,,,,,,,,,,,,,,,,,125,,100,1,,6/2/2014 10:30,,BASE,,HP,,HP BASE,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+665978-001,base cover,,,,,,,,,,,,,,,,,,125,,100,1,,6/2/2014 10:30,,BASE,,HP,,HP BASE,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+734406-001,Base Assembly,,,,,,,,,,,,,,,,,,125,,100,1,,6/2/2014 10:30,,BASE,,HP,,HP BASE,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+639399-001,Base,,,,,,,,,,,,,,,,,,125,,100,1,,6/2/2014 10:30,,BASE,,HP,,HP BASE,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+702681-001,LCD Panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,HP,,HP LCD PANEL ONLY,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+681817-001,LCD Panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,HP,,HP LCD PANEL ONLY,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+652256-001,lcd panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,HP,,HP LCD PANEL ONLY,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+645096-001,lcd panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,HP,,HP LCD PANEL ONLY,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+687100-001,SSD,,,,,,,,,,,,,,,,,,150,,100,1,,6/2/2014 10:30,,SSD,,HP,,HP SSD,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+702176-501,motherboard,,,,,,,,,,,,,,,,,,175,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,HP,,HP MOTHERBOARD,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+688277-001,motherboard,,,,,,,,,,,,,,,,,,175,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,HP,,HP MOTHERBOARD,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+681999-001,motherboard,,,,,,,,,,,,,,,,,,175,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,HP,,HP MOTHERBOARD,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+675852-001,motherboard,,,,,,,,,,,,,,,,,,175,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,HP,,HP MOTHERBOARD,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+655590-001,motherboard,,,,,,,,,,,,,,,,,,175,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,HP,,HP MOTHERBOARD,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+653846-001,motherboard,,,,,,,,,,,,,,,,,,175,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,HP,,HP MOTHERBOARD,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+653340-001,motherboard,,,,,,,,,,,,,,,,,,175,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,HP,,HP MOTHERBOARD,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+641713-001,motherboard,,,,,,,,,,,,,,,,,,175,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,HP,,HP MOTHERBOARD,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+639391-001,motherboard,,,,,,,,,,,,,,,,,,175,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,HP,,HP MOTHERBOARD,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+620887-001,motherboard,,,,,,,,,,,,,,,,,,175,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,HP,,HP MOTHERBOARD,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+615687-001,motherboard,,,,,,,,,,,,,,,,,,175,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,HP,,HP MOTHERBOARD,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+574679-001,Motherboard,,,,,,,,,,,,,,,,,,175,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,HP,,HP MOTHERBOARD,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+571187-001,motherboard,,,,,,,,,,,,,,,,,,175,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,HP,,HP MOTHERBOARD,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+5189-4598,motherboard,,,,,,,,,,,,,,,,,,175,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,HP,,HP MOTHERBOARD,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+5188-2907,motherboard,,,,,,,,,,,,,,,,,,175,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,HP,,HP MOTHERBOARD,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+5003-1032,motherboard,,,,,,,,,,,,,,,,,,175,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,HP,,HP MOTHERBOARD,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+460900-002,Motherboard,,,,,,,,,,,,,,,,,,175,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,HP,,HP MOTHERBOARD,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+446477-001,motherboard,,,,,,,,,,,,,,,,,,175,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,HP,,HP MOTHERBOARD,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+722204-501,MB,,,,,,,,,,,,,,,,,,175,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,HP,,HP MOTHERBOARD,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+FQ661-69001,Mainboard,,,,,,,,,,,,,,,,,,175,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,HP,,HP MOTHERBOARD,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+699378-001,LCD Assembly,,,,,,,,,,,,,,,,,,350,,100,1,,6/2/2014 10:30,,LCD COMPLETE ASSY,,HP,,HP LCD FULL ASSY,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+734413-001,LCD Module,,,,,,,,,,,,,,,,,,350,,100,1,,6/2/2014 10:30,,LCD COMPLETE ASSY,,HP,,HP LCD FULL ASSY,,,,,,,,,HP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+16200182,HDD 1TB,,,,,,,,,,,,,,,,,,80,,100,1,,6/2/2014 10:30,,HDD,,LENOVO,,LENOVO HDD,,,,,,,,,LENOVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+18200773,HTS LGD133 3QD32-8SM,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,LENOVO,,LENOVO LCD PANEL ONLY,,,,,,,,,LENOVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+04W3895,Motherboard,,,,,,,,,,,,,,,,,,250,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,LENOVO,,LENOVO MOTHERBOARD,,,,,,,,,LENOVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+90002338,Motherboard,,,,,,,,,,,,,,,,,,250,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,LENOVO,,LENOVO MOTHERBOARD,,,,,,,,,LENOVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+90002038,Main board,,,,,,,,,,,,,,,,,,250,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,LENOVO,,LENOVO MOTHERBOARD,,,,,,,,,LENOVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+90400099,LCD module,,,,,,,,,,,,,,,,,,350,,100,1,,6/2/2014 10:30,,LCD COMPLETE ASSY,,LENOVO,,LENOVO LCD FULL ASSY,,,,,,,,,LENOVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+BA31-00124B,fan,,,,,,,,,,,,,,,,,,25,,100,1,,6/2/2014 10:30,,FAN,,SAMSUNG,,SAMSUNG FAN,,,,,,,,,SAMSUNG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+BA75-02563A,LCD Bezel,,,,,,,,,,,,,,,,,,25,,100,1,,6/2/2014 10:30,,FRONT BEZEL,,SAMSUNG,,SAMSUNG FRONT BEZEL,,,,,,,,,SAMSUNG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+BA75-04066A,HOUSING FRONT LCD,,,,,,,,,,,,,,,,,,25,,100,1,,6/2/2014 10:30,,FRONT BEZEL,,SAMSUNG,,SAMSUNG FRONT BEZEL,,,,,,,,,SAMSUNG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+BA75-03732A,Bezel,,,,,,,,,,,,,,,,,,25,,100,1,,6/2/2014 10:30,,FRONT BEZEL,,SAMSUNG,,SAMSUNG FRONT BEZEL,,,,,,,,,SAMSUNG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+BA75-03731A,lcd back cover,,,,,,,,,,,,,,,,,,27,,100,1,,6/2/2014 10:30,,LCD BACK COVER,,SAMSUNG,,SAMSUNG LCD BACK COVER,,,,,,,,,SAMSUNG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+BA75-02561A,LCD Back cover,,,,,,,,,,,,,,,,,,27,,100,1,,6/2/2014 10:30,,LCD BACK COVER,,SAMSUNG,,SAMSUNG LCD BACK COVER,,,,,,,,,SAMSUNG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+BA75-03938A,HOUSING BACK LCD,,,,,,,,,,,,,,,,,,27,,100,1,,6/2/2014 10:30,,LCD BACK COVER,,SAMSUNG,,SAMSUNG LCD BACK COVER,,,,,,,,,SAMSUNG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+BA75-03717A,HOUSING BACK LCD,,,,,,,,,,,,,,,,,,27,,100,1,,6/2/2014 10:30,,LCD BACK COVER,,SAMSUNG,,SAMSUNG LCD BACK COVER,,,,,,,,,SAMSUNG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+BA44-00242A,Ac adapter,,,,,,,,,,,,,,,,,,39,,100,1,,6/2/2014 10:30,,ADAPTER,,SAMSUNG,,SAMSUNG ADAPTER,,,,,,,,,SAMSUNG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+GH44-02375D,USB Cable,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,SAMSUNG,,SAMSUNG OTHER,,,,,,,,,SAMSUNG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+GH39-01440H,USB Cable,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,SAMSUNG,,SAMSUNG OTHER,,,,,,,,,SAMSUNG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+BA39-01209A,dc-in jack,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,SAMSUNG,,SAMSUNG OTHER,,,,,,,,,SAMSUNG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+BA43-00358A,battery,,,,,,,,,,,,,,,,,,65,,100,1,,6/2/2014 10:30,,BATTERY,,SAMSUNG,,SAMSUNG BATTERY,,,,,,,,,SAMSUNG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+BA43-00198A,battery,,,,,,,,,,,,,,,,,,65,,100,1,,6/2/2014 10:30,,BATTERY,,SAMSUNG,,SAMSUNG BATTERY,,,,,,,,,SAMSUNG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+BA59-03615A,LCD Panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,SAMSUNG,,SAMSUNG LCD PANEL ONLY,,,,,,,,,SAMSUNG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+BA59-03584A,LCD Panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,SAMSUNG,,SAMSUNG LCD PANEL ONLY,,,,,,,,,SAMSUNG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+BA59-03367A,lcd panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,SAMSUNG,,SAMSUNG LCD PANEL ONLY,,,,,,,,,SAMSUNG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+BA92-10501A,motherboarrd,,,,,,,,,,,,,,,,,,250,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,SAMSUNG,,SAMSUNG MOTHERBOARD,,,,,,,,,SAMSUNG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+BA92-11488A,motherboard,,,,,,,,,,,,,,,,,,250,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,SAMSUNG,,SAMSUNG MOTHERBOARD,,,,,,,,,SAMSUNG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+BA92-10484A,motherboard,,,,,,,,,,,,,,,,,,250,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,SAMSUNG,,SAMSUNG MOTHERBOARD,,,,,,,,,SAMSUNG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+BA92-06785A,motherboard,,,,,,,,,,,,,,,,,,250,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,SAMSUNG,,SAMSUNG MOTHERBOARD,,,,,,,,,SAMSUNG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+BA96-06424A,LCD Complete Assy,,,,,,,,,,,,,,,,,,350,,100,1,,6/2/2014 10:30,,LCD COMPLETE ASSY,,SAMSUNG,,SAMSUNG LCD FULL ASSY,,,,,,,,,SAMSUNG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+A-1772-165-A,DC in jack,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,SONY,,SONY OTHER,,,,,,,,,SONY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+53010BM21-203-G,Keyboard,,,,,,,,,,,,,,,,,,85,,100,1,,6/2/2014 10:30,,KEYBOARD BILINGUAL,,SONY,,SONY KEYBOARD BIL,,,,,,,,,SONY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+V000270990,Cooling fan,,,,,,,,,,,,,,,,,,25,,100,1,,6/2/2014 10:30,,FAN,,TOSHIBA,,TOSHIBA FAN,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+H000026650,Cooling fan,,,,,,,,,,,,,,,,,,25,,100,1,,6/2/2014 10:30,,FAN,,TOSHIBA,,TOSHIBA FAN,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+A000053190,Cooling fan,,,,,,,,,,,,,,,,,,25,,100,1,,6/2/2014 10:30,,FAN,,TOSHIBA,,TOSHIBA FAN,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+V000300130,LCD Bezel,,,,,,,,,,,,,,,,,,25,,100,1,,6/2/2014 10:30,,FRONT BEZEL,,TOSHIBA,,TOSHIBA FRONT BEZEL,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+H000037500,LCD BEZEL,,,,,,,,,,,,,,,,,,25,,100,1,,6/2/2014 10:30,,FRONT BEZEL,,TOSHIBA,,TOSHIBA FRONT BEZEL,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+H000037470,LCD Cover,,,,,,,,,,,,,,,,,,27,,100,1,,6/2/2014 10:30,,LCD BACK COVER,,TOSHIBA,,TOSHIBA LCD BACK COVER,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+A000210530,LCD Cover,,,,,,,,,,,,,,,,,,27,,100,1,,6/2/2014 10:30,,LCD BACK COVER,,TOSHIBA,,TOSHIBA LCD BACK COVER,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+V000300150,LCD Back cover,,,,,,,,,,,,,,,,,,27,,100,1,,6/2/2014 10:30,,LCD BACK COVER,,TOSHIBA,,TOSHIBA LCD BACK COVER,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+H000037860,LCD CABLE,,,,,,,,,,,,,,,,,,27,,100,1,,6/2/2014 10:30,,LCD WIRE SET,,TOSHIBA,,TOSHIBA LCD WIRE,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+A000055180,LCD cable,,,,,,,,,,,,,,,,,,27,,100,1,,6/2/2014 10:30,,LCD WIRE SET,,TOSHIBA,,TOSHIBA LCD WIRE,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+V000210490,FPC LCD,,,,,,,,,,,,,,,,,,27,,100,1,,6/2/2014 10:30,,LCD WIRE SET,,TOSHIBA,,TOSHIBA LCD WIRE,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+V000321470,kEYBOARD,,,,,,,,,,,,,,,,,,35,,100,1,,6/2/2014 10:30,,KEYBOARD ENGLISH,,TOSHIBA,,TOSHIBA KEYBOARD US,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+V000272520,Keyboard,,,,,,,,,,,,,,,,,,35,,100,1,,6/2/2014 10:30,,KEYBOARD ENGLISH,,TOSHIBA,,TOSHIBA KEYBOARD US,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+H000045330,keyboard,,,,,,,,,,,,,,,,,,35,,100,1,,6/2/2014 10:30,,KEYBOARD ENGLISH,,TOSHIBA,,TOSHIBA KEYBOARD US,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+P000556540,AC adapter,,,,,,,,,,,,,,,,,,39,,100,1,,6/2/2014 10:30,,ADAPTER,,TOSHIBA,,TOSHIBA ADAPTER,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+P0005352040,AC ADAPTER,,,,,,,,,,,,,,,,,,39,,100,1,,6/2/2014 10:30,,ADAPTER,,TOSHIBA,,TOSHIBA ADAPTER,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+H000031220,Touchpad board,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,TOSHIBA,,TOSHIBA OTHER,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+V000946860,Touch Pad Board,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,TOSHIBA,,TOSHIBA OTHER,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+V000240460,Touch Pad Board,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,TOSHIBA,,TOSHIBA OTHER,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+H000037830,Touch Pad,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,TOSHIBA,,TOSHIBA OTHER,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+a000208130,Touch Pad,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,TOSHIBA,,TOSHIBA OTHER,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+H000038150,keyboard cover,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,TOSHIBA,,TOSHIBA OTHER,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+V000942580,DC-IN JACK,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,TOSHIBA,,TOSHIBA OTHER,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+H000037850,DC IN Jack,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,OTHER,,TOSHIBA,,TOSHIBA OTHER,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+H000052180,Topcover,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,PALMREST,,TOSHIBA,,TOSHIBA PALMREST,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+v000220030,top cover assy,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,PALMREST,,TOSHIBA,,TOSHIBA PALMREST,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+V000320130,Top Cover,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,PALMREST,,TOSHIBA,,TOSHIBA PALMREST,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+V000300200,Top cover,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,PALMREST,,TOSHIBA,,TOSHIBA PALMREST,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+v000270660,Top Cover,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,PALMREST,,TOSHIBA,,TOSHIBA PALMREST,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+H000043330,TOP COVER,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,PALMREST,,TOSHIBA,,TOSHIBA PALMREST,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+H000043230,top cover,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,PALMREST,,TOSHIBA,,TOSHIBA PALMREST,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+H000041650,Top Cover,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,PALMREST,,TOSHIBA,,TOSHIBA PALMREST,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+H000034540,TCA,,,,,,,,,,,,,,,,,,45,,100,1,,6/2/2014 10:30,,PALMREST,,TOSHIBA,,TOSHIBA PALMREST,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+H000037340,Thermal module/fan,,,,,,,,,,,,,,,,,,50,,100,1,,6/2/2014 10:30,,THERMAL MODULE,,TOSHIBA,,TOSHIBA THERMAL MODULE,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+V000270020,Thermal Module,,,,,,,,,,,,,,,,,,50,,100,1,,6/2/2014 10:30,,THERMAL MODULE,,TOSHIBA,,TOSHIBA THERMAL MODULE,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+K000099290,Thermal Module,,,,,,,,,,,,,,,,,,50,,100,1,,6/2/2014 10:30,,THERMAL MODULE,,TOSHIBA,,TOSHIBA THERMAL MODULE,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+H000037640,Thermal Module,,,,,,,,,,,,,,,,,,50,,100,1,,6/2/2014 10:30,,THERMAL MODULE,,TOSHIBA,,TOSHIBA THERMAL MODULE,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+H000026340,THERMAL MODULE,,,,,,,,,,,,,,,,,,50,,100,1,,6/2/2014 10:30,,THERMAL MODULE,,TOSHIBA,,TOSHIBA THERMAL MODULE,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+A000079390,Thermal Module,,,,,,,,,,,,,,,,,,50,,100,1,,6/2/2014 10:30,,THERMAL MODULE,,TOSHIBA,,TOSHIBA THERMAL MODULE,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+V000271120,Thermal mod,,,,,,,,,,,,,,,,,,50,,100,1,,6/2/2014 10:30,,THERMAL MODULE,,TOSHIBA,,TOSHIBA THERMAL MODULE,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+V000943420,Optical Drive Bezel,,,,,,,,,,,,,,,,,,60,,100,1,,6/2/2014 10:30,,DVD,,TOSHIBA,,TOSHIBA DVD,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+V000210050,DVD,,,,,,,,,,,,,,,,,,60,,100,1,,6/2/2014 10:30,,DVD,,TOSHIBA,,TOSHIBA DVD,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+A000051280,Battery 12 cell,,,,,,,,,,,,,,,,,,65,,100,1,,6/2/2014 10:30,,BATTERY,,TOSHIBA,,TOSHIBA BATTERY,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+V000212670,Battery,,,,,,,,,,,,,,,,,,65,,100,1,,6/2/2014 10:30,,BATTERY,,TOSHIBA,,TOSHIBA BATTERY,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+V000210190,Battery,,,,,,,,,,,,,,,,,,65,,100,1,,6/2/2014 10:30,,BATTERY,,TOSHIBA,,TOSHIBA BATTERY,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+P000556700,BATTERY,,,,,,,,,,,,,,,,,,65,,100,1,,6/2/2014 10:30,,BATTERY,,TOSHIBA,,TOSHIBA BATTERY,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+H000050600,battery,,,,,,,,,,,,,,,,,,65,,100,1,,6/2/2014 10:30,,BATTERY,,TOSHIBA,,TOSHIBA BATTERY,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+h000030480,battery,,,,,,,,,,,,,,,,,,65,,100,1,,6/2/2014 10:30,,BATTERY,,TOSHIBA,,TOSHIBA BATTERY,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+H000030190,Battery,,,,,,,,,,,,,,,,,,65,,100,1,,6/2/2014 10:30,,BATTERY,,TOSHIBA,,TOSHIBA BATTERY,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+A000080680,Battery,,,,,,,,,,,,,,,,,,65,,100,1,,6/2/2014 10:30,,BATTERY,,TOSHIBA,,TOSHIBA BATTERY,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+A000075270,Battery,,,,,,,,,,,,,,,,,,65,,100,1,,6/2/2014 10:30,,BATTERY,,TOSHIBA,,TOSHIBA BATTERY,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+V000271810,keyboard,,,,,,,,,,,,,,,,,,85,,100,1,,6/2/2014 10:30,,KEYBOARD BILINGUAL,,TOSHIBA,,TOSHIBA KEYBOARD BIL,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+V000211060,Keyboard,,,,,,,,,,,,,,,,,,85,,100,1,,6/2/2014 10:30,,KEYBOARD BILINGUAL,,TOSHIBA,,TOSHIBA KEYBOARD BIL,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+H00045330,keyboard,,,,,,,,,,,,,,,,,,85,,100,1,,6/2/2014 10:30,,KEYBOARD BILINGUAL,,TOSHIBA,,TOSHIBA KEYBOARD BIL,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+H000043950,Keyboard,,,,,,,,,,,,,,,,,,85,,100,1,,6/2/2014 10:30,,KEYBOARD BILINGUAL,,TOSHIBA,,TOSHIBA KEYBOARD BIL,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+H000039910,keyboard,,,,,,,,,,,,,,,,,,85,,100,1,,6/2/2014 10:30,,KEYBOARD BILINGUAL,,TOSHIBA,,TOSHIBA KEYBOARD BIL,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+H000029060,KEYBOARD,,,,,,,,,,,,,,,,,,85,,100,1,,6/2/2014 10:30,,KEYBOARD BILINGUAL,,TOSHIBA,,TOSHIBA KEYBOARD BIL,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+A000244040,Keyboard,,,,,,,,,,,,,,,,,,85,,100,1,,6/2/2014 10:30,,KEYBOARD BILINGUAL,,TOSHIBA,,TOSHIBA KEYBOARD BIL,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+A000077530,KEYBOARD,,,,,,,,,,,,,,,,,,85,,100,1,,6/2/2014 10:30,,KEYBOARD BILINGUAL,,TOSHIBA,,TOSHIBA KEYBOARD BIL,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+A000053420,Lowercase,,,,,,,,,,,,,,,,,,125,,100,1,,6/2/2014 10:30,,BASE,,TOSHIBA,,TOSHIBA BASE,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+H000050060,BOTTOM CASE,,,,,,,,,,,,,,,,,,125,,100,1,,6/2/2014 10:30,,BASE,,TOSHIBA,,TOSHIBA BASE,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+H000037400,Bottom Base,,,,,,,,,,,,,,,,,,125,,100,1,,6/2/2014 10:30,,BASE,,TOSHIBA,,TOSHIBA BASE,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+V000271640,Base cover,,,,,,,,,,,,,,,,,,125,,100,1,,6/2/2014 10:30,,BASE,,TOSHIBA,,TOSHIBA BASE,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+v000221090,base cover,,,,,,,,,,,,,,,,,,125,,100,1,,6/2/2014 10:30,,BASE,,TOSHIBA,,TOSHIBA BASE,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+V000220380,Base Cover,,,,,,,,,,,,,,,,,,125,,100,1,,6/2/2014 10:30,,BASE,,TOSHIBA,,TOSHIBA BASE,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+V000220070,Base Cover,,,,,,,,,,,,,,,,,,125,,100,1,,6/2/2014 10:30,,BASE,,TOSHIBA,,TOSHIBA BASE,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+V000210970,base cover,,,,,,,,,,,,,,,,,,125,,100,1,,6/2/2014 10:30,,BASE,,TOSHIBA,,TOSHIBA BASE,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+V000300270,Base,,,,,,,,,,,,,,,,,,125,,100,1,,6/2/2014 10:30,,BASE,,TOSHIBA,,TOSHIBA BASE,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+V000212220,LED DIsplay,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,TOSHIBA,,TOSHIBA LCD PANEL ONLY,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+H000025060,LCD-LED Panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,TOSHIBA,,TOSHIBA LCD PANEL ONLY,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+H000057810,LCD Pannel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,TOSHIBA,,TOSHIBA LCD PANEL ONLY,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+V000271000,LCD Panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,TOSHIBA,,TOSHIBA LCD PANEL ONLY,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+H000037930,LCD Panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,TOSHIBA,,TOSHIBA LCD PANEL ONLY,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+H000037910,LCD Panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,TOSHIBA,,TOSHIBA LCD PANEL ONLY,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+A000237400,LCD Panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,TOSHIBA,,TOSHIBA LCD PANEL ONLY,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+A000079230,LCD Panel,,,,,,,,,,,,,,,,,,135,,100,1,,6/2/2014 10:30,,LCD PANEL ONLY,,TOSHIBA,,TOSHIBA LCD PANEL ONLY,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+v000281520,blue ray optical,,,,,,,,,,,,,,,,,,150,,100,1,,6/2/2014 10:30,,OTHER,,TOSHIBA,,TOSHIBA OTHER,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+P000557270,SSD MSATA 128GB,,,,,,,,,,,,,,,,,,150,,100,1,,6/2/2014 10:30,,SSD,,TOSHIBA,,TOSHIBA SSD,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+h000041580,motherboard assy,,,,,,,,,,,,,,,,,,175,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,TOSHIBA,,TOSHIBA MOTHERBOARD,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+V000225010,Motherboard,,,,,,,,,,,,,,,,,,175,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,TOSHIBA,,TOSHIBA MOTHERBOARD,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+v000218010,motherboard,,,,,,,,,,,,,,,,,,175,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,TOSHIBA,,TOSHIBA MOTHERBOARD,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+K000103780,Motherboard,,,,,,,,,,,,,,,,,,175,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,TOSHIBA,,TOSHIBA MOTHERBOARD,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+K000093520,Motherboard,,,,,,,,,,,,,,,,,,175,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,TOSHIBA,,TOSHIBA MOTHERBOARD,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+H000052590,Motherboard,,,,,,,,,,,,,,,,,,175,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,TOSHIBA,,TOSHIBA MOTHERBOARD,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+H000052420,Motherboard,,,,,,,,,,,,,,,,,,175,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,TOSHIBA,,TOSHIBA MOTHERBOARD,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+H000043480,Motherboard,,,,,,,,,,,,,,,,,,175,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,TOSHIBA,,TOSHIBA MOTHERBOARD,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+H000041610,Motherboard,,,,,,,,,,,,,,,,,,175,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,TOSHIBA,,TOSHIBA MOTHERBOARD,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+H000038370,motherboard,,,,,,,,,,,,,,,,,,175,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,TOSHIBA,,TOSHIBA MOTHERBOARD,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+A000053810,Mainboard,,,,,,,,,,,,,,,,,,175,,100,1,,6/2/2014 10:30,,MOTHERBOARD,,TOSHIBA,,TOSHIBA MOTHERBOARD,,,,,,,,,TOSHIBA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+Request Quote 1,Request Quote,,,,,,,,,,,,,,,,,,0,,100,1,,6/2/2014 10:30,,Z QUOTE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+Request Quote 2,Request Quote,,,,,,,,,,,,,,,,,,0,,100,1,,6/2/2014 10:30,,Z QUOTE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+Request Quote 3,Request Quote,,,,,,,,,,,,,,,,,,0,,100,1,,6/2/2014 10:30,,Z QUOTE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+Request Quote 4,Request Quote,,,,,,,,,,,,,,,,,,0,,100,1,,6/2/2014 10:30,,Z QUOTE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+Request Quote 5,Request Quote,,,,,,,,,,,,,,,,,,0,,100,1,,6/2/2014 10:30,,Z QUOTE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+Request Quote 6,Request Quote,,,,,,,,,,,,,,,,,,0,,100,1,,6/2/2014 10:30,,Z QUOTE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Taxable Goods,Active,EOREOR
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

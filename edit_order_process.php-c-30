@@ -1,0 +1,75 @@
+<?php 
+ require('includes/application_top.php');
+define('EMAIL_SEPARATOR', '------------------------------------------------------');
+
+ //$action = (isset($HTTP_GET_VARS['action']) ? $HTTP_GET_VARS['action'] : '');
+//$GET['id'];
+function get_customer_id($id){
+	
+	$customers_email_query = tep_db_query("select * from rfq_order where rfq_id = '" . (int)$id . "'");
+        $customers_email = tep_db_fetch_array($customers_email_query);
+       
+		$cust_id=$customers_email['customer_id'];
+		return $cust_id;
+	}
+	
+  $rfq_id = tep_db_prepare_input($HTTP_POST_VARS['id']);
+
+        $manfacturer = tep_db_prepare_input($HTTP_POST_VARS['manufacturers_id']);
+        $serial = tep_db_prepare_input($HTTP_POST_VARS['serial_no']);
+        $model = tep_db_prepare_input($HTTP_POST_VARS['model_no']);
+       $issue_no = tep_db_prepare_input($HTTP_POST_VARS['issue_no']);
+       $po_no = tep_db_prepare_input($HTTP_POST_VARS['customer_po']);
+        $notes = tep_db_prepare_input($HTTP_POST_VARS['notes']);
+        
+ $sql_data_array = array('manufacturer' => $manfacturer,
+                                'serial' => $serial,
+                                'model' => $model,
+                                'issue_no' => $issue_no,
+                                'po_no' => $po_no,
+                                'notes' => $notes,
+								'order_updates' =>1 
+								);
+								
+ tep_db_perform('rfq_order', $sql_data_array, 'update', "rfq_id = '" . (int)$rfq_id . "'");
+
+foreach($_POST['cart_quantity'] as $key=> $val){
+	$catinfo=tep_db_fetch_array(tep_db_query("select a.categories_id, b.categories_name from " . TABLE_CATEGORIES . " a ," .TABLE_CATEGORIES_DESCRIPTION. " 
+	b where a.categories_id=b.categories_id and a.parent_id=0 and b.categories_id='".$_POST['parttype'][$key]."'"));
+	
+			  $products_ordered .= $val . ' x ' . $catinfo['categories_name']. ' (' . $_POST['partnum'][$key] . ') = ' .$_POST['price'][$key]."\t" .$_POST['desc'][$key] . "\n";
+			 $sql_data_array2 = array('qty' => $val,
+                                'description' => $_POST['desc'][$key],
+                                'part_type_id' => $_POST['parttype'][$key],
+                                'part_number' => $catinfo['categories_name'],
+                                'price' => $_POST['price'][$key]
+								);
+		
+							//	print_r($sql_data_array2);
+							//exit;
+			tep_db_perform('rfq_order_detail', $sql_data_array2, 'update', "rfq_od_id = '" . (int)$key. "'");
+
+			}
+ $email_order = STORE_NAME . "\n" . 
+                 EMAIL_SEPARATOR . "\n\n" .
+		 'Manufacturer Name ' . "\n" .EMAIL_SEPARATOR . "\n" .getManfct_name($manfacturer). "\n\n" .
+		 'Serial No: ' . "\n" .EMAIL_SEPARATOR . "\n" .$serial. "\n\n" .
+		 'Model No:' . "\n" .EMAIL_SEPARATOR . "\n" .$model. "\n\n" .'Products Ordered'. "\n".EMAIL_SEPARATOR . "\n" . $products_ordered."\n\n".
+		 'Issue No: ' . "\n" .EMAIL_SEPARATOR . "\n" .$issue_no. "\n\n" .
+		 'PO No:' . "\n" .EMAIL_SEPARATOR . "\n" .$po_no. "\n\n" .
+		 'Notes' . "\n" .EMAIL_SEPARATOR . "\n" .$notes. "\n\n".
+ 		 'View Order:' . "\n" .EMAIL_SEPARATOR . "\n<a href='http://itemnet.ca/cartest/view_detail.php?id=" .$rfq_id. "'>http://itemnet.ca/cartest/view_detail.php?id=" .$rfq_id. "</a>\n\n" ;
+ $po="po".$po_no;
+ 
+ //ger_customer_i function retun customer id
+  $customer_id_tmp=get_customer_id($rfq_id);
+ 
+  $customers_email = tep_db_query("select * from customers where customers_id = '" . (int)$customer_id_tmp. "'");
+  $customer_address = tep_db_fetch_array($customers_email);
+
+ tep_mail($customer_address['customers_firstname'] . ' ' . $customer_address['customers_lastname'], $customer_address['customers_email_address'], 'Quote Order Updated', $email_order, STORE_OWNER, STORE_OWNER_EMAIL_ADDRESS);
+     
+       
+        tep_redirect(tep_href_link('allorders.php', ''));
+ 
+?>

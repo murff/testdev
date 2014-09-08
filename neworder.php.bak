@@ -1,0 +1,346 @@
+<?php
+/*
+  $Id$
+
+  osCommerce, Open Source E-Commerce Solutions
+  http://www.oscommerce.com
+
+  Copyright (c) 2012 osCommerce
+
+  Released under the GNU General Public License
+*/
+define('EMAIL_SEPARATOR', '------------------------------------------------------');
+
+  require('includes/application_top.php');
+  require('includes/classes/http_client.php');
+
+// if the customer is not logged on, redirect them to the login page
+  if (!tep_session_is_registered('customer_id')) {
+    $navigation->set_snapshot();
+    tep_redirect(tep_href_link(FILENAME_LOGIN, '', 'SSL'));
+  }
+
+// if there is nothing in the customers cart, redirect them to the shopping cart page
+  //if ($cart->count_contents() < 1) {
+  //  tep_redirect(tep_href_link(FILENAME_SHOPPING_CART));
+ // }
+
+ 
+
+ 
+ 
+
+// process the selected shipping method
+
+  if ( isset($HTTP_POST_VARS['action']) && ($HTTP_POST_VARS['action'] == 'process') && isset($HTTP_POST_VARS['formid']) && ($HTTP_POST_VARS['formid'] == $sessiontoken) ) {
+    
+    
+      $customer_address_query = tep_db_query("select c.customers_firstname, c.customers_lastname, c.customers_telephone, c.customers_email_address, ab.entry_company, ab.entry_street_address, ab.entry_suburb, ab.entry_postcode, ab.entry_city, ab.entry_zone_id, z.zone_name, co.countries_id, co.countries_name, co.countries_iso_code_2, co.countries_iso_code_3, co.address_format_id, ab.entry_state from " . TABLE_CUSTOMERS . " c, " . TABLE_ADDRESS_BOOK . " ab left join " . TABLE_ZONES . " z on (ab.entry_zone_id = z.zone_id) left join " . TABLE_COUNTRIES . " co on (ab.entry_country_id = co.countries_id) where c.customers_id = '" . (int)$customer_id . "' and ab.customers_id = '" . (int)$customer_id . "' and c.customers_default_address_id = ab.address_book_id");
+          $customer_address = tep_db_fetch_array($customer_address_query);
+	  
+     $manufacturers_info = tep_db_fetch_array(tep_db_query("select  manufacturers_name from " . TABLE_MANUFACTURERS . " where manufacturers_id='".$_REQUEST['manufacturers_id']."'"));
+     
+// lets start with the email confirmation
+	$prodinfo1=tep_db_fetch_array(tep_db_query("select  b.products_name from " . TABLE_PRODUCTS . " a,".TABLE_PRODUCTS_DESCRIPTION." b where a.products_id=b.products_id and a.products_model='".$_REQUEST['partnum1']."'"));
+	$prodinfo2=tep_db_fetch_array(tep_db_query("select  b.products_name from " . TABLE_PRODUCTS . " a,".TABLE_PRODUCTS_DESCRIPTION." b where a.products_id=b.products_id and a.products_model='".$_REQUEST['partnum2']."'"));
+	$prodinfo3=tep_db_fetch_array(tep_db_query("select  b.products_name from " . TABLE_PRODUCTS . " a,".TABLE_PRODUCTS_DESCRIPTION." b where a.products_id=b.products_id and a.products_model='".$_REQUEST['partnum3']."'"));
+	$prodinfo4=tep_db_fetch_array(tep_db_query("select  b.products_name from " . TABLE_PRODUCTS . " a,".TABLE_PRODUCTS_DESCRIPTION." b where a.products_id=b.products_id and a.products_model='".$_REQUEST['partnum4']."'"));
+	$prodinfo5=tep_db_fetch_array(tep_db_query("select  b.products_name from " . TABLE_PRODUCTS . " a,".TABLE_PRODUCTS_DESCRIPTION." b where a.products_id=b.products_id and a.products_model='".$_REQUEST['partnum5']."'"));
+	$prodinfo6=tep_db_fetch_array(tep_db_query("select  b.products_name from " . TABLE_PRODUCTS . " a,".TABLE_PRODUCTS_DESCRIPTION." b where a.products_id=b.products_id and a.products_model='".$_REQUEST['partnum6']."'"));
+	
+	$catinfo1=tep_db_fetch_array(tep_db_query("select a.categories_id, b.categories_name from " . TABLE_CATEGORIES . " a ," .TABLE_CATEGORIES_DESCRIPTION. " b where a.categories_id=b.categories_id and a.parent_id=0 and b.categories_id='".$_REQUEST['parttype1']."'"));
+	$catinfo2=tep_db_fetch_array(tep_db_query("select a.categories_id, b.categories_name from " . TABLE_CATEGORIES . " a ," .TABLE_CATEGORIES_DESCRIPTION. " b where a.categories_id=b.categories_id and a.parent_id=0 and b.categories_id='".$_REQUEST['parttype2']."'"));
+	$catinfo3=tep_db_fetch_array(tep_db_query("select a.categories_id, b.categories_name from " . TABLE_CATEGORIES . " a ," .TABLE_CATEGORIES_DESCRIPTION. " b where a.categories_id=b.categories_id and a.parent_id=0 and b.categories_id='".$_REQUEST['parttype3']."'"));
+	$catinfo4=tep_db_fetch_array(tep_db_query("select a.categories_id, b.categories_name from " . TABLE_CATEGORIES . " a ," .TABLE_CATEGORIES_DESCRIPTION. " b where a.categories_id=b.categories_id and a.parent_id=0 and b.categories_id='".$_REQUEST['parttype4']."'"));
+	$catinfo5=tep_db_fetch_array(tep_db_query("select a.categories_id, b.categories_name from " . TABLE_CATEGORIES . " a ," .TABLE_CATEGORIES_DESCRIPTION. " b where a.categories_id=b.categories_id and a.parent_id=0 and b.categories_id='".$_REQUEST['parttype5']."'"));
+	$catinfo6=tep_db_fetch_array(tep_db_query("select a.categories_id, b.categories_name from " . TABLE_CATEGORIES . " a ," .TABLE_CATEGORIES_DESCRIPTION. " b where a.categories_id=b.categories_id and a.parent_id=0 and b.categories_id='".$_REQUEST['parttype6']."'"));
+	
+    $products_ordered .= $_REQUEST['cart_quantity1'] . ' x ' . stripslashes($prodinfo1['products_name']) . ' (' . $_POST['partnum1'] . ') = ' . $currencies->display_price($_POST['price1']) ."\t".$catinfo1['categories_name']."\t" .$_POST['descr1'] . "\n";
+    $products_ordered .= $_REQUEST['cart_quantity2'] . ' x ' . stripslashes($prodinfo2['products_name']) . ' (' . $_POST['partnum2'] . ') = ' . $currencies->display_price($_POST['price2']) ."\t".$catinfo2['categories_name']."\t" .$_POST['descr2'] . "\n";
+    $products_ordered .= $_REQUEST['cart_quantity3'] . ' x ' . stripslashes($prodinfo3['products_name']) . ' (' . $_POST['partnum3'] . ') = ' . $currencies->display_price($_POST['price3']) ."\t".$catinfo3['categories_name']."\t" .$_POST['descr3'] . "\n";
+    $products_ordered .= $_REQUEST['cart_quantity4'] . ' x ' . stripslashes($prodinfo4['products_name']) . ' (' . $_POST['partnum4'] . ') = ' . $currencies->display_price($_POST['price4']) ."\t".$catinfo4['categories_name']."\t" .$_POST['descr4'] . "\n";
+    $products_ordered .= $_REQUEST['cart_quantity5'] . ' x ' . stripslashes($prodinfo5['products_name']) . ' (' . $_POST['partnum5'] . ') = ' . $currencies->display_price($_POST['price5']) ."\t".$catinfo5['categories_name']."\t" .$_POST['descr5'] . "\n";
+    $products_ordered .= $_REQUEST['cart_quantity6'] . ' x ' . stripslashes($prodinfo6['products_name']) . ' (' . $_POST['partnum6'] . ') = ' . $currencies->display_price($_POST['price6']) ."\t".$catinfo6['categories_name']."\t" .$_POST['descr6'] . "\n";
+    
+  $email_order = STORE_NAME . "\n" . 
+                 EMAIL_SEPARATOR . "\n" .
+		 'Manufacturer Name ' .EMAIL_SEPARATOR . "\n" .$manufacturers_info['manufacturers_name']. "\n" .
+		 'Serial No: ' .EMAIL_SEPARATOR . "\n" .$_REQUEST['serial_no']. "\n" .
+		 'Model No:' .EMAIL_SEPARATOR . "\n" .$_REQUEST['model_no']. "\n" . $products_ordered."\n\n".
+		 'Issue No: ' .EMAIL_SEPARATOR . "\n" .$_REQUEST['issue_no']. "\n" .
+		 'PO No:' .EMAIL_SEPARATOR . "\n" .$_REQUEST['customer_po']. "\n" .
+		 'Notes' .EMAIL_SEPARATOR . "\n" .$_REQUEST['notes']. "\n"  ;
+ 
+ // tep_mail($to_name, $to_email_address, $email_subject, $email_text, $from_email_name, $from_email_address)
+  tep_mail(STORE_OWNER, STORE_OWNER_EMAIL_ADDRESS , 'REQUEST FOR QUOTE', $email_order, $customer_address['customers_firstname'] . ' ' . $customer_address['customers_lastname'], $customer_address['customers_email_address']);
+  tep_mail('Ravi', 'coolguyinus2006@gmail.com', 'REQUEST FOR QUOTE', $email_order, $customer_address['customers_firstname'] . ' ' . $customer_address['customers_lastname'], $customer_address['customers_email_address']);
+  tep_mail($customer_address['customers_firstname'] . ' ' . $customer_address['customers_lastname'], $customer_address['customers_email_address'], 'REQUEST FOR QUOTE', $email_order, STORE_OWNER, STORE_OWNER_EMAIL_ADDRESS);
+     $str= '<h3>Quote Request Sent SUccessfully</h3>';
+  }
+
+ 
+ 
+
+  require(DIR_WS_LANGUAGES . $language . '/' . FILENAME_CHECKOUT_SHIPPING);
+
+ 
+
+ // dont show left and right block
+ $dontshowleftright=1;
+  
+  require(DIR_WS_INCLUDES . 'template_top.php');
+  
+   $cat_query = tep_db_query("select a.categories_id, b.categories_name from " . TABLE_CATEGORIES . " a ," .TABLE_CATEGORIES_DESCRIPTION. " b where a.categories_id=b.categories_id and a.parent_id=0 order by b.categories_name");
+  			    	//	echo "select a.categories_id, b.categories_name from " . TABLE_CATEGORIES . " a ," .TABLE_CATEGORIES_DESCRIPTION. " b where a.categories_id=b.categories_id and a.parent_id=0 order by b.categories_name";	    
+  	    $cat_arrayt = array();
+  	       
+  		           $cat_arrayt[] = array('id' => '', 'text' => PULL_DOWN_DEFAULT);
+//<option value="" selected="selected">Please Select</option><option value="19">ADAPTER</option><option value="49">BASE</option><option value="40">BATTERY</option><option value="98">DESKTOP OTHER</option><option value="58">DESKTOP POWER SUPPLY</option><option value="148">DESKTOP VIDEO CARD</option><option value="37">DVD</option><option value="1">FAN</option><option value="4">FRONT BEZEL</option><option value="61">GREASE</option><option value="43">HDD</option><option value="31">HINGE PAIR</option><option value="46">KEYBOARD BILINGUAL</option><option value="16">KEYBOARD ENGLISH</option><option value="10">LCD BACK COVER</option><option value="114">LCD COMPLETE ASSY</option><option value="52">LCD PANEL ONLY</option><option value="125">LCD WIRE SET</option><option value="55">MOTHERBOARD</option><option value="22">OTHER</option><option value="25">PALMREST</option><option value="7">RAM</option><option value="109">SSD</option><option value="13">SWITCH COVER</option><option value="34">THERMAL MODULE</option><option value="28">WIFI</option><option value="223">Z QUOTE</option>  		           
+  			    			    
+  			    			              while ($cat = tep_db_fetch_array($cat_query)) {
+  			    			                $categories_name =    $cat['categories_name'] ;
+      if($cat['categories_id']=='19')$cat['categories_id']=35;
+      if($cat['categories_id']=='40')$cat['categories_id']=65;
+      if($cat['categories_id']=='49')$cat['categories_id']=0;
+      if($cat['categories_id']=='98')$cat['categories_id']=0;
+      if($cat['categories_id']=='58')$cat['categories_id']=30;
+      if($cat['categories_id']=='148')$cat['categories_id']=110;
+      if($cat['categories_id']=='37')$cat['categories_id']=0;
+      if($cat['categories_id']=='1')$cat['categories_id']=25;
+      if($cat['categories_id']=='4')$cat['categories_id']=25;
+      if($cat['categories_id']=='61')$cat['categories_id']=10;
+      if($cat['categories_id']=='43')$cat['categories_id']=80;
+      if($cat['categories_id']=='31')$cat['categories_id']=30;
+      if($cat['categories_id']=='46')$cat['categories_id']=85;
+      if($cat['categories_id']=='16')$cat['categories_id']=35;
+      if($cat['categories_id']=='10')$cat['categories_id']=27;
+      if($cat['categories_id']=='114')$cat['categories_id']=350;
+      if($cat['categories_id']=='52')$cat['categories_id']=135;
+      if($cat['categories_id']=='125')$cat['categories_id']=27;
+      if($cat['categories_id']=='55')$cat['categories_id']=250;
+      if($cat['categories_id']=='22')$cat['categories_id']=35;
+      if($cat['categories_id']=='25')$cat['categories_id']=45;
+      if($cat['categories_id']=='7')$cat['categories_id']=25;
+      if($cat['categories_id']=='109')$cat['categories_id']=0;
+      if($cat['categories_id']=='13')$cat['categories_id']=30;
+      if($cat['categories_id']=='34')$cat['categories_id']=0;
+      if($cat['categories_id']=='28')$cat['categories_id']=0;
+      if($cat['categories_id']=='223')$cat['categories_id']=0;
+      
+      
+      
+  			    			                $cat_arrayt[] = array('id' => $cat['categories_id'],
+  			    			                                               'text' => $categories_name);
+  			    			              }
+?>
+
+ 
+
+<h1><?php echo 'Place a new Request for Quote'; ?></h1>
+
+ 
+ 
+  <div style="clear: both;"></div>
+
+ 
+ 
+
+ 
+<?php echo tep_draw_form('neworder', tep_href_link('neworder_process.php', '', 'SSL'), 'post', '', true) . tep_draw_hidden_field('action', 'process'); ?>
+ 
+ <script type="text/javascript">
+ function updateTextField(s,t)
+ {
+    var select = document.getElementById(s);
+    var input = document.getElementById(t);
+    
+        input.value = select.value;
+     
+ }
+ </script>
+ 
+
+  <div class="contentText">
+ 
+    <table border="0" width="100%" cellspacing="1" cellpadding="2">
+      <tr>
+        <td width="100%" valign="top"><table border="0" width="100%" cellspacing="0" cellpadding="2">
+          <tr>
+            <td><b>Manufacturer : </b></td><td> <?php
+	    
+	    $manufacturers_query = tep_db_query("select manufacturers_id, manufacturers_name from " . TABLE_MANUFACTURERS . " order by manufacturers_name");
+	    
+	    $manufacturers_arrayt = array();
+	              if (MAX_MANUFACTURERS_LIST < 2) {
+	                $manufacturers_arrayt[] = array('id' => '', 'text' => PULL_DOWN_DEFAULT);
+	              }
+	    
+	              while ($manufacturers = tep_db_fetch_array($manufacturers_query)) {
+	                $manufacturers_name = ((strlen($manufacturers['manufacturers_name']) > MAX_DISPLAY_MANUFACTURER_NAME_LEN) ? substr($manufacturers['manufacturers_name'], 0, MAX_DISPLAY_MANUFACTURER_NAME_LEN) . '..' : $manufacturers['manufacturers_name']);
+	                $manufacturers_arrayt[] = array('id' => $manufacturers['manufacturers_id'],
+	                                               'text' => $manufacturers_name);
+	              }
+	    
+	              $content =  tep_draw_pull_down_menu('manufacturers_id', $manufacturers_arrayt, (isset($_POST['manufacturers_id']) ? $_POST['manufacturers_id'] : ''), '')  ;
+	             
+	    
+	            echo   $content  ;
+	    ?></td>
+          </tr>
+          <tr>
+        <td><b>Serial  : </b></td><td>	<?php echo tep_draw_input_field('serial_no', ''); ?></td>
+          </tr>
+          <tr>
+        <td><b>Model  : </b></td><td>	<?php echo tep_draw_input_field('model_no', ''); ?></td>
+          </tr>
+         
+        </table></td>
+        
+      </tr>
+      <tr>
+      <td>
+      <table border="0" width="100%" cellspacing="5" cellpadding="2">
+      <tr>
+      		<th>Qty</th>
+      	 
+      		<th>Part Type</th>
+      	 
+      		<th>Description</th>
+      	 
+      		<th>Part Number</th>
+      	 
+      		<th>Price</th>
+      	 
+       		</tr>
+                <tr>
+ 
+		<td valign="top" align="center"><?php echo tep_draw_input_field('cart_quantity1', $_POST['cart_quantity1'], 'size="2"') ;?></td>
+	 
+		<td valign="top" align="center"><?php  
+			   
+			    			    
+			    			              echo  tep_draw_pull_down_menu('parttype1', $cat_arrayt, (isset($_POST['parttype1']) ? $_POST['parttype1'] : ''), ' id="parttype1" onchange="updateTextField(\'parttype1\',\'price1\')" ')  ;
+		?></td>
+ 
+		<td valign="top" align="center"><?php echo tep_draw_input_field('desc1', $_POST['descr1'],'size="12"');?></td>
+ 
+		<td valign="top" align="center"><?php echo tep_draw_input_field('partnum1', $_POST['partnum1'],'size="8"');?></td>
+ 
+		<td valign="top" align="center"><?php echo tep_draw_input_field('price1', $_POST['price1'],' readonly size="4" id="price1" ');?></td>
+ 		</tr>
+                <tr>
+ 
+		<td valign="top" align="center"><?php echo tep_draw_input_field('cart_quantity2', $_POST['cart_quantity2'], 'size="2"') ;?></td>
+	 
+		<td valign="top" align="center"><?php  
+					   
+			reset($cat_arrayt);		    			    
+					    			              echo  tep_draw_pull_down_menu('parttype2', $cat_arrayt, (isset($_POST['parttype2']) ? $_POST['parttype2'] : ''), ' id="parttype2" onchange="updateTextField(\'parttype2\',\'price2\')" ')  ;
+				?></td>
+ 
+		<td valign="top" align="center"><?php echo tep_draw_input_field('desc2', $_POST['descr2'],'size="12"');?></td>
+ 
+		<td valign="top" align="center"><?php echo tep_draw_input_field('partnum2', $_POST['partnum2'],'size="8"');?></td>
+ 
+		<td valign="top" align="center"><?php echo tep_draw_input_field('price2', $_POST['price2'],' readonly size="4" id="price2" ');?></td>
+ 		</tr>
+                <tr>
+ 
+		<td valign="top" align="center"><?php echo tep_draw_input_field('cart_quantity3', $_POST['cart_quantity3'], 'size="2"') ;?></td>
+	 
+		<td valign="top" align="center"><?php  
+							   
+					reset($cat_arrayt);		    			    
+							    			              echo  tep_draw_pull_down_menu('parttype3', $cat_arrayt, (isset($_POST['parttype3']) ? $_POST['parttype3'] : ''), ' id="parttype3" onchange="updateTextField(\'parttype3\',\'price3\')" ')  ;
+						?></td>
+ 
+		<td valign="top" align="center"><?php echo tep_draw_input_field('desc3', $_POST['descr3'],'size="12"');?></td>
+ 
+		<td valign="top" align="center"><?php echo tep_draw_input_field('partnum3', $_POST['partnum3'],'size="8"');?></td>
+ 
+		<td valign="top" align="center"><?php echo tep_draw_input_field('price3', $_POST['price3'],' readonly size="4" id="price3" ');?></td>
+ 		</tr>
+                <tr>
+	 
+		<td valign="top" align="center"><?php echo tep_draw_input_field('cart_quantity4', $_POST['cart_quantity4'], 'size="2"') ;?></td>
+ 
+		<td valign="top" align="center"><?php  
+									   
+							reset($cat_arrayt);		    			    
+									    			              echo  tep_draw_pull_down_menu('parttype4', $cat_arrayt, (isset($_POST['parttype4']) ? $_POST['parttype4'] : ''), ' id="parttype4" onchange="updateTextField(\'parttype4\',\'price4\')" ')  ;
+								?></td>
+ 
+		<td valign="top" align="center"><?php echo tep_draw_input_field('desc4', $_POST['descr4'],'size="12"');?></td>
+ 
+		<td valign="top" align="center"><?php echo tep_draw_input_field('partnum4', $_POST['partnum4'],'size="8"');?></td>
+ 
+		<td valign="top" align="center"><?php echo tep_draw_input_field('price4', $_POST['price4'],' readonly size="4" id="price4" ');?></td>
+ 		</tr>
+                <tr>
+ 
+		<td valign="top" align="center"><?php echo tep_draw_input_field('cart_quantity5', $_POST['cart_quantity5'], 'size="2"') ;?></td>
+ 
+		<td valign="top" align="center"><?php  
+									   
+							reset($cat_arrayt);		    			    
+									    			              echo  tep_draw_pull_down_menu('parttype5', $cat_arrayt, (isset($_POST['parttype5']) ? $_POST['parttype5'] : ''), ' id="parttype5" onchange="updateTextField(\'parttype5\',\'price5\')" ')  ;
+								?></td>
+ 
+		<td valign="top" align="center"><?php echo tep_draw_input_field('desc5', $_POST['descr5'],'size="12"');?></td>
+ 
+		<td valign="top" align="center"><?php echo tep_draw_input_field('partnum5', $_POST['partnum5'],'size="8"');?></td>
+	 
+		<td valign="top" align="center"><?php echo tep_draw_input_field('price5', $_POST['price5'],' readonly size="4" id="price5" ');?></td>
+ 		</tr>
+                <tr>
+ 
+		<td valign="top" align="center"><?php echo tep_draw_input_field('cart_quantity6', $_POST['cart_quantity6'], 'size="2"') ;?></td>
+ 
+		<td valign="top" align="center"><?php  
+									   
+							reset($cat_arrayt);		    			    
+									    			              echo  tep_draw_pull_down_menu('parttype6', $cat_arrayt, (isset($_POST['parttype6']) ? $_POST['parttype6'] : ''), ' id="parttype6" onchange="updateTextField(\'parttype6\',\'price6\')" ')  ;
+								?></td>
+	 
+		<td valign="top" align="center"><?php echo tep_draw_input_field('desc6', $_POST['descr6'],'size="12"');?></td>
+	 
+		<td valign="top" align="center"><?php echo tep_draw_input_field('partnum6', $_POST['partnum6'],'size="8"');?></td>
+	 
+		<td valign="top" align="center"><?php echo tep_draw_input_field('price6', $_POST['price6'],' readonly size="4" id="price6" ');?></td>
+ 		</tr>
+		 
+		
+		</table>
+      </td></tr>
+        <tr><td>
+	
+	  <table border="0" width="100%" cellspacing="0" cellpadding="2"><tr>
+              <td><b>Issue No  : </b></td><td >	<?php echo tep_draw_input_field('issue_no', ''); ?></td>
+                </tr>
+                <tr>              <td><b>PO No : </b></td><td>	<?php echo tep_draw_input_field('customer_po', ''); ?></td>
+                </tr>
+                <tr>              <td colspan="2"><b>Notes : </b></td>
+		</tr>
+		<tr><td colspan="2">	<?php echo tep_draw_textarea_field('notes', 'soft', '70', '7');?></td>
+                </tr></table></td></tr>
+    </table>
+  </div>
+  
+  
+  
+
+	 
+ 
+
+    <div style="float: right;"><?php echo tep_draw_button(IMAGE_BUTTON_CONTINUE, 'triangle-1-e', null, 'primary'); ?></div>
+  </div>
+</div>
+
+ 
+
+</form>
+
+<?php
+  require(DIR_WS_INCLUDES . 'template_bottom.php');
+  require(DIR_WS_INCLUDES . 'application_bottom.php');
+?>
